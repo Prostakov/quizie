@@ -1,6 +1,5 @@
 <?php
 
-// comment out the following two lines when deployed to production
 if (strlen(getenv('YII_ENV')) != 0) define('YII_ENV', getenv('YII_ENV'));
 if (strlen(getenv('YII_DEBUG')) != 0) define('YII_DEBUG', getenv('YII_DEBUG'));
 
