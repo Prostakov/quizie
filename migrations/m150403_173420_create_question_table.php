@@ -7,7 +7,7 @@ class m150403_173420_create_question_table extends Migration
 {
     public function up()
     {
-        if ($this->db->driverName === 'mysql') $charset = ''; else $charset = ' CHARSET=utf8';
+        if ($this->db->driverName === 'mysql') $charset = ' CHARSET=utf8'; else $charset = '';
         $this->createTable('question', [
             'id' => Schema::TYPE_PK,
             'name' => Schema::TYPE_TEXT . ' NOT NULL',

@@ -7,7 +7,7 @@ class m150403_173337_create_chapter_table extends Migration
 {
     public function up()
     {
-        if ($this->db->driverName === 'mysql') $charset = ''; else $charset = ' CHARSET=utf8';
+        if ($this->db->driverName === 'mysql') $charset = ' CHARSET=utf8'; else $charset = '';
         $this->createTable('chapter', [
             'id' => Schema::TYPE_PK,
             'name' => Schema::TYPE_STRING . ' NOT NULL',
