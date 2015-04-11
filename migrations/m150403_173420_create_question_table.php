@@ -14,7 +14,8 @@ class m150403_173420_create_question_table extends Migration
             'num' => Schema::TYPE_INTEGER . ' NOT NULL',
             'rule_reference' => Schema::TYPE_STRING,
             'chapter_id' => Schema::TYPE_INTEGER . ' NOT NULL',
-        ], ' CHARSET=utf8');
+        ]);
+//        ], ' CHARSET=utf8');
     }
 
     public function down()

@@ -13,7 +13,8 @@ class m150403_173337_create_chapter_table extends Migration
             'description' => Schema::TYPE_TEXT,
             'num' => Schema::TYPE_INTEGER . ' NOT NULL',
             'quiz_id' => Schema::TYPE_INTEGER . ' NOT NULL',
-        ], ' CHARSET=utf8');
+        ]);
+//        ], ' CHARSET=utf8');
     }
 
     public function down()
