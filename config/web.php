@@ -60,7 +60,7 @@ $config = [
 //                'quiz/<quiz_id:\d+>/<chapter_num:\d+>' => 'chapter/view',
 //                'quiz/<quiz_id:\d+>/<chapter_num:\d+>/edit' => 'chapter/update',
 //                'quiz/<quiz_id:\d+>/<chapter_num:\d+>/delete' => 'chapter/delete',
-            ]
+//            ]
         ],
     ],
     'params' => $params,
