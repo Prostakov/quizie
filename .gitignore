@@ -28,3 +28,6 @@ phpunit.phar
 
 # configs for db
 *db.php
+
+# other config
+config/blah.php
