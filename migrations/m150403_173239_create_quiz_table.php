@@ -14,7 +14,6 @@ class m150403_173239_create_quiz_table extends Migration
             'slug' => Schema::TYPE_STRING,
             'user_id' => Schema::TYPE_INTEGER . ' NOT NULL',
         ]);
-//        ], ' SET client_encoding = \'UTF8\'');
 //        ], ' CHARSET=utf8');
     }
 
