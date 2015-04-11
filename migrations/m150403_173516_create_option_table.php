@@ -7,13 +7,13 @@ class m150403_173516_create_option_table extends Migration
 {
     public function up()
     {
+        if ($this->db->driverName === 'mysql') $charset = ''; else $charset = ' CHARSET=utf8';
         $this->createTable('option', [
             'id' => Schema::TYPE_PK,
             'name' => Schema::TYPE_STRING . ' NOT NULL',
             'num' => Schema::TYPE_SMALLINT . ' NOT NULL',
             'question_id' => Schema::TYPE_INTEGER . ' NOT NULL',
-        ]);
-//        ], ' CHARSET=utf8');
+        ], $charset);
     }
 
     public function down()

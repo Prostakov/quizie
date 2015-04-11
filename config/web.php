@@ -39,10 +39,10 @@ $config = [
         ],
         'db' => require(__DIR__ . '/db.php'),
         'urlManager' => [
-            'enablePrettyUrl' => 'true',
-            'showScriptName' => 'false',
-            'enableStrictParsing' => 'true',
-            'scriptUrl' => '',
+//            'enablePrettyUrl' => 'true',
+//            'showScriptName' => 'false',
+//            'enableStrictParsing' => 'true',
+//            'scriptUrl' => '',
 //            'rules' => [
 //                '' => 'site/index',
 //                'about' => 'site/about',

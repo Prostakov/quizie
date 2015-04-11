@@ -7,6 +7,7 @@ class m150403_173420_create_question_table extends Migration
 {
     public function up()
     {
+        if ($this->db->driverName === 'mysql') $charset = ''; else $charset = ' CHARSET=utf8';
         $this->createTable('question', [
             'id' => Schema::TYPE_PK,
             'name' => Schema::TYPE_TEXT . ' NOT NULL',
@@ -14,8 +15,7 @@ class m150403_173420_create_question_table extends Migration
             'num' => Schema::TYPE_INTEGER . ' NOT NULL',
             'rule_reference' => Schema::TYPE_STRING,
             'chapter_id' => Schema::TYPE_INTEGER . ' NOT NULL',
-        ]);
-//        ], ' CHARSET=utf8');
+        ], $charset);
     }
 
     public function down()
