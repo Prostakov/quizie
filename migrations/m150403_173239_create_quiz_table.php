@@ -13,7 +13,8 @@ class m150403_173239_create_quiz_table extends Migration
             'description' => Schema::TYPE_TEXT,
             'slug' => Schema::TYPE_STRING,
             'user_id' => Schema::TYPE_INTEGER . ' NOT NULL',
-        ], ' CHARSET=utf8');
+        ], ' SET client_encoding = \'UTF8\'');
+//        ], ' CHARSET=utf8');
     }
 
     public function down()
