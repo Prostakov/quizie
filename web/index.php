@@ -1,8 +1,8 @@
 <?php
 
 // comment out the following two lines when deployed to production
-//if (strlen(getenv('YII_ENV')) == 0) define('YII_ENV', getenv('YII_ENV'));
-//if (strlen(getenv('YII_DEBUG')) == 0) define('YII_DEBUG', getenv('YII_DEBUG'));
+if (strlen(getenv('YII_ENV')) == 0) define('YII_ENV', getenv('YII_ENV'));
+if (strlen(getenv('YII_DEBUG')) == 0) define('YII_DEBUG', getenv('YII_DEBUG'));
 
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 defined('YII_ENV') or define('YII_ENV', 'dev');
