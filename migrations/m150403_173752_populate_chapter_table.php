@@ -177,6 +177,21 @@ class m150403_173752_populate_chapter_table extends Migration
             'num' => '34',
             'quiz_id' => '1',
         ]);
+        $this->insert('chapter', [
+            'name' => 'Основи безпеки дорожнього руху',
+            'num' => '35',
+            'quiz_id' => '1',
+        ]);
+        $this->insert('chapter', [
+            'name' => 'Основи надання першої медичної допомоги',
+            'num' => '36',
+            'quiz_id' => '1',
+        ]);
+        $this->insert('chapter', [
+            'name' => 'Основи автотранспортного права',
+            'num' => '37',
+            'quiz_id' => '1',
+        ]);
     }
 
     public function down()
