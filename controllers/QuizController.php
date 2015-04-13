@@ -42,6 +42,10 @@ class QuizController extends Controller
             'query' => Quiz::find(),
         ]);
 
+        return $this->render('index.twig', [
+            'dataProvider' => $dataProvider,
+        ]);
+
         return $this->render('index', [
             'dataProvider' => $dataProvider,
         ]);

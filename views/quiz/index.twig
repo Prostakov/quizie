@@ -1,0 +1,29 @@
+{{ use('/yii/grid/GridView') }}
+{{ use('/app/components/Twig/Extenstions/MyCustomExtension') }}
+
+{{ set(this, 'title', 'Home') }}
+{{ set(this, 'params', this.params|merge({'breadcrumbs': [this.title]})) }}
+{{ this.registerJS("$('#w1 li').first().addClass('active');", constant('yii\\web\\View::POS_READY')) }}
+
+<div class="quiz-index">
+
+    <a href="{{path('view', {'id':'1'})}}" class='btn btn-success'>View</a>
+
+    <h1>{{this.title}}</h1>
+    {% if app.user.isGuest %}
+        <p><a href="{{path('create', {'alias':''})}}" class='btn btn-success'>Add Quiz</a></p>
+    {% endif %}
+    {{ grid_view_widget({
+        'dataProvider': dataProvider,
+        'columns': [
+            {'class': 'yii\\grid\\SerialColumn'},
+            {
+                'attribute': 'name',
+                'format': 'raw',
+            },
+        ],
+    }) }}
+
+    {{ column_link({'name': 'gogo'}) }}
+
+</div>

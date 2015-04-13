@@ -62,6 +62,29 @@ $config = [
 //                'quiz/<quiz_id:\d+>/<chapter_num:\d+>/delete' => 'chapter/delete',
 //            ],
 //        ],
+        'view' => [
+            'class' => 'yii\web\View',
+            'renderers' => [
+                'twig' => [
+                    'class' => 'yii\twig\ViewRenderer',
+                    'cachePath' => '@runtime/Twig/cache',
+                    // Array of twig options:
+                    'options' => [
+                        'auto_reload' => true,
+                    ],
+                    'globals' => [
+                        'html' => '\yii\helpers\Html',
+                    ],
+                    'extensions' => [
+                        'app\components\Twig\Extensions\MyCustomExtension',
+                    ],
+                    'functions' => [
+                        'a' => '\yii\helpers\Html::a',
+                    ],
+                    'uses' => ['yii\bootstrap'],
+                ],
+            ],
+        ],
     ],
     'params' => $params,
 ];
