@@ -9,41 +9,59 @@ use yii\widgets\ActiveForm;
 
 $this->title = $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Quizzes', 'url' => ['site/index']];
-$this->params['breadcrumbs'][] = ['label' => $quiz->name, 'url' => ['quiz/view', 'id'=>$quiz->id]];
-$this->params['breadcrumbs'][] = $model->num . ". " . $this->title;
+$this->params['breadcrumbs'][] = ['label' => $quiz->name, 'url' => ['quiz/view', 'id' => $quiz->id]];
+
+if (Yii::$app->controller->action->id == 'view') {
+    $this->params['breadcrumbs'][] = $model->num . ". " . $this->title;
+} else {
+    $this->params['breadcrumbs'][] = [
+        'label' => $model->num . ". " . $this->title,
+        'url' => ['chapter/view', 'quiz_id' => $quiz->id, 'chapter_num' => $model->num]
+    ];;
+    $this->params['breadcrumbs'][] = 'Random20';
+}
+
 ?>
 <div class="chapter-view">
 
-    <h1><?= Html::encode($model->num.". ".$this->title) ?></h1>
+    <h1><?= Html::encode($model->num . ". " . $this->title) ?></h1>
 
-    <?php if(Yii::$app->getUser()->id == $quiz->user_id ): ?>
-    <p>
-        <?= Html::a('Edit', ['update', 'quiz_id' => $quiz->id, 'chapter_num' => $model->num], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Delete', ['delete', 'quiz_id' => $quiz->id, 'chapter_num' => $model->num], [
-            'class' => 'btn btn-danger',
-            'data' => [
-                'confirm' => 'Are you sure you want to delete this item?',
-                'method' => 'post',
-            ],
-        ]) ?>
-        <?= Html::a('Start Quiz!', ['#'], ['class' => 'btn btn-success', 'id' => 'start_quiz']) ?>
-    </p>
+    <?php if (Yii::$app->getUser()->id == $quiz->user_id): ?>
+        <p>
+            <?= Html::a('Edit', ['update', 'quiz_id' => $quiz->id, 'chapter_num' => $model->num],
+                ['class' => 'btn btn-primary']) ?>
+            <?= Html::a('Delete', ['delete', 'quiz_id' => $quiz->id, 'chapter_num' => $model->num], [
+                'class' => 'btn btn-danger',
+                'data' => [
+                    'confirm' => 'Are you sure you want to delete this item?',
+                    'method' => 'post',
+                ],
+            ]) ?>
+        </p>
+    <?php endif; ?>
+
+    <?php if (Yii::$app->controller->action->id == 'view'): ?>
+        <p><?= Html::a('Start random 20 test!',
+                ['chapter/random20', 'quiz_id' => $quiz->id, 'chapter_num' => $model->num],
+                ['class' => 'btn btn-success']) ?></p>
     <?php endif; ?>
 
     <div class="results" style="display: none;">
         <p>Your result is <b>0%</b></p>
     </div>
-    <?php foreach($model->questions as $question): ?>
-        <div class="question_container" data-question="<?=Html::encode($question->num)?>">
-        <p class="bold"><?=Html::encode($model->num.".".$question->num.". ".$question->name) ?> </p>
-        <div class="btn-group-vertical btn-group-sm" data-toggle="buttons" data-correct-option="<?=Html::encode($question->correct_option)?>" >
-        <?php foreach($question->options as $option): ?>
-            <label class="btn btn-default" data-option="<?=Html::encode($option->num)?>">
-                <input type="radio" name="options" />
-                <?= Html::encode($option->num.". ".$option->name) ?>
-            </label>
-        <?php endforeach; ?>
-        </div>
+    <?php foreach ($questions as $question): ?>
+        <div class="question_container" data-question="<?= Html::encode($question->num) ?>">
+            <p class="bold"><?= Html::encode($model->num . "." . $question->num . ". " . $question->name) ?> </p>
+
+            <div class="btn-group-vertical btn-group-sm" data-toggle="buttons"
+                 data-correct-option="<?= Html::encode($question->correct_option) ?>">
+                <?php foreach ($question->options as $option): ?>
+                    <label class="btn btn-default" data-option="<?= Html::encode($option->num) ?>">
+                        <input type="radio" name="options"/>
+                        <?= Html::encode($option->num . ". " . $option->name) ?>
+                    </label>
+                <?php endforeach; ?>
+            </div>
             <div class="transparent_barrier" style="display: none"></div>
         </div>
     <?php endforeach; ?>
@@ -57,15 +75,11 @@ $this->params['breadcrumbs'][] = $model->num . ". " . $this->title;
     </div>
 
     <?php
-        $js = <<<EOT
+    $js = <<<EOT
         showAlert = function(id) {
             $('#error_msg>p').text('Question #'+id+' was left blank!');
             $('#error_msg').fadeIn(400);
         };
-        $('#start_quiz').on('click', function(e){
-            e.preventDefault();
-            console.log('bebe');
-        });
         $('#finish_quiz').on('click', function(){
             $('#error_msg').fadeOut(400);
             exitFlag = false;
@@ -104,7 +118,7 @@ $this->params['breadcrumbs'][] = $model->num . ". " . $this->title;
             $('.transparent_barrier').show();
         });
 EOT;
-        $this->registerJs($js, yii\web\View::POS_READY);
+    $this->registerJs($js, yii\web\View::POS_READY);
     ?>
 
 </div>

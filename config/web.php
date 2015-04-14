@@ -58,6 +58,7 @@ $config = [
 //                'quiz/<id:\d+>/delete' => 'quiz/delete',
 //                'quiz/<quiz_id:\d+>/add_chapter' => 'chapter/create',
 //                'quiz/<quiz_id:\d+>/<chapter_num:\d+>' => 'chapter/view',
+//                'quiz/<quiz_id:\d+>/<chapter_num:\d+>/random20' => 'chapter/random20',
 //                'quiz/<quiz_id:\d+>/<chapter_num:\d+>/edit' => 'chapter/update',
 //                'quiz/<quiz_id:\d+>/<chapter_num:\d+>/delete' => 'chapter/delete',
 //            ],

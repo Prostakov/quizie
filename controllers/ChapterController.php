@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Question;
 use Yii;
 use app\models\Chapter;
 use app\models\Quiz;
@@ -40,8 +41,35 @@ class ChapterController extends Controller
         $quiz = $chapter->quiz;
         return $this->render('view', [
             'model' => $chapter,
+            'questions' => $chapter->questions,
             'quiz' => $quiz,
         ]);
+    }
+
+    public function actionRandom20($quiz_id, $chapter_num)
+    {
+        $chapter = Chapter::find()->where(['quiz_id' => $quiz_id, 'num' => $chapter_num])->with('quiz')->one();
+        $questionsCount = Question::find()->where(['chapter_id' => $chapter->id])->count();
+        $random20Range = $this->UniqueRandomNumbersWithinRange(1, $questionsCount);
+        $questions = Question::find()->where([
+            'chapter_id' => $chapter->id,
+            'num' => $random20Range,
+        ])->with('options')->all();
+        shuffle($questions);
+//TODO        if (is_null($chapter)) var_dump('bebe');
+        $quiz = $chapter->quiz;
+        return $this->render('view', [
+            'model' => $chapter,
+            'questions' => $questions,
+            'quiz' => $quiz,
+            'random20Range' => $random20Range,
+        ]);
+    }
+
+    private function UniqueRandomNumbersWithinRange($min, $max, $quantity=20) {
+        $numbers = range($min, $max);
+        shuffle($numbers);
+        return array_slice($numbers, 0, $quantity);
     }
 
     /**
