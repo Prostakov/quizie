@@ -9,7 +9,11 @@ use yii\widgets\ActiveForm;
 
 $this->title = $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Quizzes', 'url' => ['site/index']];
-$this->params['breadcrumbs'][] = ['label' => $quiz->name, 'url' => ['quiz/view', 'id' => $quiz->id]];
+$this->params['breadcrumbs'][] = [
+    'label' => $quiz->name,
+    'url' => ['quiz/view', 'id' => $quiz->id],
+    'id' => 'quiz_name',
+];
 
 if (Yii::$app->controller->action->id == 'view') {
     $this->params['breadcrumbs'][] = $model->num . ". " . $this->title;
@@ -24,7 +28,7 @@ if (Yii::$app->controller->action->id == 'view') {
 ?>
 <div class="chapter-view">
 
-    <h1><?= Html::encode($model->num . ". " . $this->title) ?></h1>
+    <h1 id="chapter_name" data-chapter="<?= Html::encode($model->num) ?>"><?= Html::encode($model->num . ". " . $this->title) ?></h1>
 
     <?php if (Yii::$app->getUser()->id == $quiz->user_id): ?>
         <p>
@@ -116,6 +120,19 @@ if (Yii::$app->controller->action->id == 'view') {
             $('.results').show();
             $("body").animate({scrollTop:0}, '500', 'swing');
             $('.transparent_barrier').show();
+        });
+
+        // Testing new features
+        // init UserQuizData
+        quizName = $('#quiz_name').text();
+        chapterNum = $('#chapter_name').attr('data-chapter');
+        window.userQuizData = new UserQuizData();
+        userQuizData.addQuiz(quizName);
+        userQuizData.addChapter(quizName, chapterNum);
+        $('.btn-group-vertical .btn.btn-default').on('click',function(){
+            option = $(this).attr('data-option');
+            num = $(this).parent().parent().attr('data-question');
+            userQuizData.setQuestion(quizName, chapterNum, num, option);
         });
 EOT;
     $this->registerJs($js, yii\web\View::POS_READY);
