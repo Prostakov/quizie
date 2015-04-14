@@ -82,6 +82,15 @@ UserQuizData.prototype.setQuestion = function(quizName, chapterNum, questionNum,
     this.quizzes[quizIndex].chapters[chapterIndex].setQuestion(questionNum, questionOption);
 }
 
+UserQuizData.prototype.clearQuestions = function(quizName, chapterNum) {
+    quizIndex = this.findQuiz(quizName);
+    if (quizIndex == -1) throw "Quiz with that name does not exist";
+    chapterIndex = this.quizzes[quizIndex].findChapter(chapterNum);
+    if (chapterIndex == -1) throw "Chapter with that num does not exist!";
+    while (this.quizzes[quizIndex].chapters[chapterIndex].questions.length>0)
+        this.quizzes[quizIndex].chapters[chapterIndex].questions.pop();
+}
+
 
 
 

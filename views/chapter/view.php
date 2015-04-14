@@ -46,9 +46,12 @@ if (Yii::$app->controller->action->id == 'view') {
     <?php endif; ?>
 
     <?php if (Yii::$app->controller->action->id == 'view'): ?>
-        <p><?= Html::a('Start random 20 test!',
+        <p>
+            <?= Html::a('Random 20 Test!',
                 ['chapter/random20', 'quiz_id' => $quiz->id, 'chapter_num' => $model->num],
-                ['class' => 'btn btn-success']) ?></p>
+                ['class' => 'btn btn-success']) ?>
+            <?= Html::a('Reset Quiz', ['#'], ['class' => 'btn btn-danger', 'id' => 'reset_quiz']) ?>
+        </p>
     <?php endif; ?>
 
     <div class="results" style="display: none;">
@@ -172,6 +175,14 @@ EOT;
             num = $(this).parent().parent().attr('data-question');
             userQuizData.setQuestion(quizName, chapterNum, num, option);
             console.log(userQuizData);
+            $.cookie('userQuizData', JSON.stringify(userQuizData), { expires: 7 });
+        });
+        $('#reset_quiz').on('click', function(e){
+            e.preventDefault();
+            $('.btn-group-vertical .btn.btn-default').removeClass('active').removeClass('harsh_red');
+            $('.question_container').removeClass('green').removeClass('red');
+            $('.transparent_barrier').hide();
+            userQuizData.clearQuestions(quizName, chapterNum);
             $.cookie('userQuizData', JSON.stringify(userQuizData), { expires: 7 });
         });
 EOT;
