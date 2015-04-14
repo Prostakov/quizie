@@ -55,7 +55,7 @@ class ChapterController extends Controller
             'chapter_id' => $chapter->id,
             'num' => $random20Range,
         ])->with('options')->all();
-        shuffle($questions);
+//        shuffle($questions);
 //TODO        if (is_null($chapter)) var_dump('bebe');
         $quiz = $chapter->quiz;
         return $this->render('view', [
