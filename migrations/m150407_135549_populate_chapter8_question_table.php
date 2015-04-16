@@ -9,7 +9,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
     {
         $this->insert('question', [
             'id' => '249',
-            'name' => "",
+            'name' => "Знаки сервиса информируют участников дорожного движения о:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '1',
@@ -17,7 +17,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '250',
-            'name' => "",
+            'name' => "Обязаны ли вы нарушить требования дорожной разметки по требованию работника Госавтоинспекции?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '2',
@@ -25,7 +25,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '251',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '3',
@@ -33,7 +33,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '252',
-            'name' => "",
+            'name' => "При этих сигналах светофора преимущество в движении имеет:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '4',
@@ -41,7 +41,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '253',
-            'name' => "",
+            'name' => "Движение через перекресток разрешается водителям:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '5',
@@ -49,7 +49,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '254',
-            'name' => "",
+            'name' => "На каком из этих рисунков дорожное движение регулируется?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '6',
@@ -57,7 +57,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '255',
-            'name' => "",
+            'name' => "В этом случае движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '7',
@@ -65,7 +65,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '256',
-            'name' => "",
+            'name' => "При включении желтого сигнала светофора водителю грузового автомобиля:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '8',
@@ -73,7 +73,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '257',
-            'name' => "",
+            'name' => "Действие какого из изображенных светофоров распространяется только на пешеходов?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '9',
@@ -81,7 +81,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '258',
-            'name' => "",
+            'name' => "В этом случае вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '10',
@@ -89,7 +89,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '259',
-            'name' => "",
+            'name' => "Цифровое табло под светофором информирует о:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '11',
@@ -97,7 +97,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '260',
-            'name' => "",
+            'name' => "В этом случае движение разрешается:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '12',
@@ -105,7 +105,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '261',
-            'name' => "",
+            'name' => "Сочетание красного сигнала светофора со звуковым сигналом на железнодорожном переезде движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '13',
@@ -113,7 +113,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '262',
-            'name' => "",
+            'name' => "Движение прямо разрешается:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '14',
@@ -121,7 +121,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '263',
-            'name' => "",
+            'name' => "Два мигающих желтых сигнала светофора движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '15',
@@ -129,7 +129,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '264',
-            'name' => "",
+            'name' => "Движение разрешается:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '16',
@@ -137,7 +137,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '265',
-            'name' => "",
+            'name' => "В этом случае вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '17',
@@ -145,7 +145,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '266',
-            'name' => "",
+            'name' => "Движение разрешается:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '18',
@@ -153,7 +153,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '267',
-            'name' => "",
+            'name' => "Объехать препятствие разрешается:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '19',
@@ -161,7 +161,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '268',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '20',
@@ -169,7 +169,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '269',
-            'name' => "",
+            'name' => "По какому из направлений, показаных стрелками, разрешается движение легковому автомобилю?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '21',
@@ -177,7 +177,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '270',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '22',
@@ -185,7 +185,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '271',
-            'name' => "",
+            'name' => "В этом случае движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '23',
@@ -193,7 +193,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '272',
-            'name' => "",
+            'name' => "Стрелка на красном сигнале светлофора, расположеного над правой полосой, информирует водителя легкового автомобиля о том, что:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '24',
@@ -201,7 +201,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '273',
-            'name' => "",
+            'name' => "При подаче регулировщиком сигнала, запрещающего движение транспортных средств и пешеходов на перекрестке с нанесенной разметкой \"зебра\", водитель должен остановить транспортное средство только:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '25',
@@ -209,7 +209,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '274',
-            'name' => "",
+            'name' => "Движение налево разрещается:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '26',
@@ -217,7 +217,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '275',
-            'name' => "",
+            'name' => "Движение транспортных средств регулируется светлофорами:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '27',
@@ -225,7 +225,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '276',
-            'name' => "",
+            'name' => "В этой ситуации движение разрещается:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '28',
@@ -233,7 +233,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '277',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '29',
@@ -241,7 +241,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '278',
-            'name' => "",
+            'name' => "Водители каких транспортных средств нарушают Правила, двигаясь через перекресток прямо?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '30',
@@ -249,7 +249,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '279',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '31',
@@ -257,7 +257,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '280',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '32',
@@ -265,7 +265,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '281',
-            'name' => "",
+            'name' => "Красный сигнал светофора движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '33',
@@ -273,7 +273,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '282',
-            'name' => "",
+            'name' => "При появлении впереди вас патрульного автомобиля с включенным специальным табло Вы обязаны:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '34',
@@ -281,7 +281,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '283',
-            'name' => "",
+            'name' => "В этой ситуации водителю легкового автомобиля проехать перекресток разрешается:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '35',
@@ -289,7 +289,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '284',
-            'name' => "",
+            'name' => "Осуществить движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '36',
@@ -297,7 +297,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '285',
-            'name' => "",
+            'name' => "В этой ситуации водителю легкового автомобиля движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '37',
@@ -305,7 +305,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '286',
-            'name' => "",
+            'name' => "Мигающий сигнал бело-лунного цвета показывает, что:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '38',
@@ -313,7 +313,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '287',
-            'name' => "",
+            'name' => "Движение разрешается:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '39',
@@ -321,7 +321,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '288',
-            'name' => "",
+            'name' => "Какая последовательность размещения сигналов светофоров при горизонтальном их расположении?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '40',
@@ -329,7 +329,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '289',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '41',
@@ -337,7 +337,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '290',
-            'name' => "",
+            'name' => "Осуществить движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '42',
@@ -345,7 +345,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '291',
-            'name' => "",
+            'name' => "Сигнал в виде зеленой стрелки в дополнительной секции информирует водителей о том, что движение налево:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '43',
@@ -353,7 +353,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '292',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '44',
@@ -361,7 +361,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '293',
-            'name' => "",
+            'name' => "Пешеходные ограждения информируют о расположении:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '45',
@@ -369,7 +369,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '294',
-            'name' => "",
+            'name' => "Желтый сигнал этого светофора:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '46',
@@ -377,7 +377,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '295',
-            'name' => "",
+            'name' => "Сигналами регулировщика являются:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '47',
@@ -385,7 +385,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '296',
-            'name' => "",
+            'name' => "Желтый сигнал светофора в этом случае движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '48',
@@ -393,7 +393,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '297',
-            'name' => "",
+            'name' => "Движение через перекресток разрешается:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '49',
@@ -401,7 +401,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '298',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '50',
@@ -409,7 +409,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '299',
-            'name' => "",
+            'name' => "При работе светофора в режиме мигания желтого сигнала двигаться следует согласно правилам проезда:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '51',
@@ -417,7 +417,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '300',
-            'name' => "",
+            'name' => "Звуковой сигнал с мигающими красными сигналами изображенного светофора информируют участников дорожного движения о том, что:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '52',
@@ -425,7 +425,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '301',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '53',
@@ -433,7 +433,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '302',
-            'name' => "",
+            'name' => "Сочетание красного и желтого сигналов светофора движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '54',
@@ -441,7 +441,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '303',
-            'name' => "",
+            'name' => "Водителю автобуса движение через перекресток:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '55',
@@ -449,7 +449,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '304',
-            'name' => "",
+            'name' => "Светофор с двумя красными сигналами или одним бело-лунным и двумя красными применяется для регулирования движения:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '56',
@@ -457,7 +457,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '305',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '57',
@@ -465,7 +465,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '306',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '58',
@@ -473,7 +473,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '307',
-            'name' => "",
+            'name' => "Преимущественное право на движение имеет водитель:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '59',
@@ -481,7 +481,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '308',
-            'name' => "",
+            'name' => "Контурная стрелка на основном зеленом сигнале светофора информирует о:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '60',
@@ -489,7 +489,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '309',
-            'name' => "",
+            'name' => "Регулирование дорожного движения осуществляется:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '61',
@@ -497,7 +497,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '310',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '62',
@@ -505,7 +505,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '311',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '63',
@@ -513,7 +513,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '312',
-            'name' => "",
+            'name' => "Сигналами какого светофора должны руководствоваться водители трамваев?",
             'correct_option' => '5',
             'rule_reference' => '',
             'num' => '64',
@@ -521,7 +521,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '313',
-            'name' => "",
+            'name' => "Желтый мигающий сигнал светофора движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '65',
@@ -529,7 +529,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '314',
-            'name' => "",
+            'name' => "В этом случае Вы должны:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '66',
@@ -537,7 +537,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '315',
-            'name' => "",
+            'name' => "Черные контурные стрелки на сигналах желтого и красного цвета светофора информируют о разрешенных направлениях движения при:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '67',
@@ -545,7 +545,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '316',
-            'name' => "",
+            'name' => "Въезд на полосу, обозначенную с обеих сторон двойной прерывистой дорожной разметкой, при выключенных сигналах реверсивного светофора, расположенного над этой полосой:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '68',
@@ -553,7 +553,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '317',
-            'name' => "",
+            'name' => "В этой ситуации движение Вам:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '69',
@@ -561,7 +561,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '318',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '70',
@@ -569,7 +569,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '319',
-            'name' => "",
+            'name' => "Движение через переезд при мигающих только красных сигналах светофора:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '71',
@@ -577,7 +577,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '320',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '72',
@@ -585,7 +585,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '321',
-            'name' => "",
+            'name' => "Движение налево разрешается:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '73',
@@ -593,7 +593,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '322',
-            'name' => "",
+            'name' => "Каким из изображенных светофоров обозначается опасный пешеходный переход?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '74',
@@ -601,7 +601,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '323',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '75',
@@ -609,7 +609,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '324',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '76',
@@ -617,7 +617,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '325',
-            'name' => "",
+            'name' => "Если при включении желтого сигнала светофора Вы не имеете возможности остановить автомобиль перед разметкой \"Стоп-линия\" без экстренного торможения, то:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '77',
@@ -625,7 +625,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '326',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '78',
@@ -633,7 +633,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '327',
-            'name' => "",
+            'name' => "Сигналом какого светофора в этой ситуации должен руководствоваться водитель?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '79',
@@ -641,7 +641,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '328',
-            'name' => "",
+            'name' => "Перед требованиями каких дорожных знаков сигналы регулировщика имеют преимущество?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '80',
@@ -649,7 +649,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '329',
-            'name' => "",
+            'name' => "Движение разрешается Вам и:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '81',
@@ -657,7 +657,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '330',
-            'name' => "",
+            'name' => "Водителю какого транспортного средства в этом случае разрешается выполнить разворот?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '82',
@@ -665,7 +665,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '331',
-            'name' => "",
+            'name' => "Движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '83',
@@ -673,7 +673,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '332',
-            'name' => "",
+            'name' => "При подаче светофором сигнала, запрещающего движение, водитель, подъезжая к перекрестку, где отсутствует разметка “Стоп-линия” или знак “Место остановки”, должен остановить транспортное средство только:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '84',
@@ -681,7 +681,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '333',
-            'name' => "",
+            'name' => "В этой ситуации движение разрешается:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '85',
@@ -689,7 +689,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '334',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '86',
@@ -697,7 +697,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '335',
-            'name' => "",
+            'name' => "Преимущество в движении имеет водитель:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '87',
@@ -705,7 +705,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '336',
-            'name' => "",
+            'name' => "Предупреждающие знаки применяются для информирования водителей о:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '88',
@@ -713,7 +713,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '337',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '89',
@@ -721,7 +721,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '338',
-            'name' => "",
+            'name' => "Имеют ли временные дорожные знаки, закрепленные на щите с желтым фоном, преимущество перед постоянными дорожными знаками и дорожной разметкой?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '90',
@@ -729,7 +729,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '339',
-            'name' => "",
+            'name' => "Водителю какого транспортного средства разрешается движение через перекресток?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '91',
@@ -737,7 +737,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '340',
-            'name' => "",
+            'name' => "Подъезжая к перекрестку, Вы;",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '92',
@@ -745,7 +745,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '341',
-            'name' => "",
+            'name' => "Каким из изображенных светофоров регулируется движение на железнодорожном переезде?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '93',
@@ -753,7 +753,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '342',
-            'name' => "",
+            'name' => "Водителю легкового автомобиля в этом случае выполнить поворот направо:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '94',
@@ -761,7 +761,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '343',
-            'name' => "",
+            'name' => "Светофор работает в режиме мигания желтого сигнала. В этой ситуации движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '95',
@@ -769,7 +769,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '344',
-            'name' => "",
+            'name' => "В этом случае Вам движение;",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '96',
@@ -777,7 +777,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '345',
-            'name' => "",
+            'name' => "Преимущество в движении имеет водитель:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '97',
@@ -785,7 +785,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '346',
-            'name' => "",
+            'name' => "Для поворота направо в этом случае Вы:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '98',
@@ -793,7 +793,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '347',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '99',
@@ -801,7 +801,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '348',
-            'name' => "",
+            'name' => "При этом жесте регулировщика движение разрешается только:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '100',
@@ -809,7 +809,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '349',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '101',
@@ -817,7 +817,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '350',
-            'name' => "",
+            'name' => "Услышав команду остановиться, поданную при помощи громкоговорящего устройства работником милиции, водитель обязан остановиться двигаясь:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '102',
@@ -825,7 +825,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '351',
-            'name' => "",
+            'name' => "В этой ситуации вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '103',
@@ -833,7 +833,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '352',
-            'name' => "",
+            'name' => "В этой ситуации движение разрешается:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '104',
@@ -841,7 +841,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '353',
-            'name' => "",
+            'name' => "Информационно-указательные знаки:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '105',
@@ -849,7 +849,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '354',
-            'name' => "",
+            'name' => "Осуществить движение Вам:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '106',
@@ -857,7 +857,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '355',
-            'name' => "",
+            'name' => "Красные мигающие сигналы светофора движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '107',
@@ -865,7 +865,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '356',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '108',
@@ -873,7 +873,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '357',
-            'name' => "",
+            'name' => "Преимущество в движении имеет водитель:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '109',
@@ -881,7 +881,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '358',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '110',
@@ -889,7 +889,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '359',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '111',
@@ -897,7 +897,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '360',
-            'name' => "",
+            'name' => "Дополнительный сигнал реверсивного светофора в виде желтой стрелки движение транспортных средств по полосе, обозначенной с обеих сторон двойной прерывистой дорожной разметкой:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '112',
@@ -905,7 +905,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '361',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '113',
@@ -913,7 +913,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '362',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '114',
@@ -921,7 +921,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '363',
-            'name' => "",
+            'name' => "Вам и водителю встречного автомобиля движение разрешается:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '115',
@@ -929,7 +929,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '364',
-            'name' => "",
+            'name' => "В этом случае движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '116',
@@ -937,7 +937,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '365',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '117',
@@ -945,7 +945,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '366',
-            'name' => "",
+            'name' => "Водителю трамвая в этом случае движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '118',
@@ -953,7 +953,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '367',
-            'name' => "",
+            'name' => "Каким транспортным средствам разрешается движение?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '119',
@@ -961,7 +961,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '368',
-            'name' => "",
+            'name' => "Знаки приоритета устанавливают очередность проезда:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '120',
@@ -969,7 +969,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '369',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '121',
@@ -977,7 +977,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '370',
-            'name' => "",
+            'name' => "В этой ситуации водителю легкового автомобиля движение разрешается:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '122',
@@ -985,7 +985,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '371',
-            'name' => "",
+            'name' => "Сигнал светофора в виде зеленой стрелки на черном фоне:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '123',
@@ -993,7 +993,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '372',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '124',
@@ -1001,7 +1001,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '373',
-            'name' => "",
+            'name' => "Каким транспортным средствам разрешается движение?",
             'correct_option' => '5',
             'rule_reference' => '',
             'num' => '125',
@@ -1009,7 +1009,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '374',
-            'name' => "",
+            'name' => "В этом случае движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '126',
@@ -1017,7 +1017,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '375',
-            'name' => "",
+            'name' => "Звуковой сигнал на пешеходном переходе движение пешеходов:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '127',
@@ -1025,7 +1025,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '376',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '128',
@@ -1033,7 +1033,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '377',
-            'name' => "",
+            'name' => "При этом сигнале регулировщика движение Вам:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '129',
@@ -1041,7 +1041,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '378',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '130',
@@ -1049,7 +1049,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '379',
-            'name' => "",
+            'name' => "Дополнительный желтый сигнал реверсивного светофора в виде стрелки информирует о:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '131',
@@ -1057,7 +1057,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '380',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '132',
@@ -1065,7 +1065,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '381',
-            'name' => "",
+            'name' => "Для проезда направо Вы должны:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '133',
@@ -1073,7 +1073,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '382',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '134',
@@ -1081,7 +1081,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '383',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '135',
@@ -1089,7 +1089,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '384',
-            'name' => "",
+            'name' => "При включении зеленых сигналов изображенного светофора разворот:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '136',
@@ -1097,7 +1097,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '385',
-            'name' => "",
+            'name' => "При этом жесте регулировщика движение разрешается:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '137',
@@ -1105,7 +1105,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '386',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '138',
@@ -1113,7 +1113,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '387',
-            'name' => "",
+            'name' => "Запрещающие знаки:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '139',
@@ -1121,7 +1121,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '388',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '140',
@@ -1129,7 +1129,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '389',
-            'name' => "",
+            'name' => "Водителям каких транспортных средств разрешается движение направо?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '141',
@@ -1137,7 +1137,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '390',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '142',
@@ -1145,7 +1145,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '391',
-            'name' => "",
+            'name' => "Каким транспортным средствам в этом случае разрешается движение?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '143',
@@ -1153,7 +1153,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '392',
-            'name' => "",
+            'name' => "Если регулировщик рукой или жезлом указывает на транспортное средство, то водитель:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '144',
@@ -1161,7 +1161,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '393',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '145',
@@ -1169,7 +1169,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '394',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '146',
@@ -1177,7 +1177,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '395',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '147',
@@ -1185,7 +1185,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '396',
-            'name' => "",
+            'name' => "Сигнал в виде зеленой стрелки в дополнительной секции светофора, включенный вместе с зеленым сигналом основного светофора, информирует, что:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '148',
@@ -1193,7 +1193,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '397',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '149',
@@ -1201,7 +1201,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '398',
-            'name' => "",
+            'name' => "В этом случае выполнить разворот Вам:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '150',
@@ -1209,7 +1209,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '399',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '151',
@@ -1217,7 +1217,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '400',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '152',
@@ -1225,7 +1225,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '401',
-            'name' => "",
+            'name' => "При этих сигналах светофоров движение разрешается:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '153',
@@ -1233,7 +1233,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '402',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '154',
@@ -1241,7 +1241,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '403',
-            'name' => "",
+            'name' => "При этом жесте регулировщика Вам:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '155',
@@ -1249,7 +1249,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '404',
-            'name' => "",
+            'name' => "Предписывающие дорожные знаки:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '156',
@@ -1257,7 +1257,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '405',
-            'name' => "",
+            'name' => "Водитель какого автомобиля нарушает Правила, двигаясь в направлении изображенных на рисунке стрелок при выключенных сигналах реверсивного светофора?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '157',
@@ -1265,7 +1265,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '406',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '158',
@@ -1273,7 +1273,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '407',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '159',
@@ -1281,7 +1281,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '408',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '160',
@@ -1289,7 +1289,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '409',
-            'name' => "",
+            'name' => "При регулировании движения светофором с сигналами бело-лунного цвета, расположенными в виде буквы «Т», движение трамваю разрешается только при включении одновременно:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '161',
@@ -1297,7 +1297,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '410',
-            'name' => "",
+            'name' => "Движение пешеходов регулирует:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '162',
@@ -1305,7 +1305,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '411',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '163',
@@ -1313,7 +1313,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '412',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение разрешается:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '164',
@@ -1321,7 +1321,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '413',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '165',
@@ -1329,7 +1329,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '414',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '166',
@@ -1337,7 +1337,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '415',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '167',
@@ -1345,7 +1345,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '416',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '168',
@@ -1353,7 +1353,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '417',
-            'name' => "",
+            'name' => "В этом случае движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '169',
@@ -1361,7 +1361,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '418',
-            'name' => "",
+            'name' => "Если регулировщик поднял руку вверх, то движение запрещено во всех направлениях:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '170',
@@ -1369,7 +1369,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '419',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '171',
@@ -1377,7 +1377,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '420',
-            'name' => "",
+            'name' => "Движение через перекресток:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '172',
@@ -1385,7 +1385,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '421',
-            'name' => "",
+            'name' => "Сигнал в виде зеленой стрелки в дополнительной секции, включенный вместе с желтым или красным сигналом светофора, информирует водителей о том, что:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '173',
@@ -1393,7 +1393,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '422',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '174',
@@ -1401,7 +1401,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '423',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '175',
@@ -1409,7 +1409,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '424',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '176',
@@ -1417,7 +1417,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '425',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '177',
@@ -1425,7 +1425,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '426',
-            'name' => "",
+            'name' => "Если сигнал светофора имеет вид силуэта пешехода, то его действие распространяется:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '178',
@@ -1433,7 +1433,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '427',
-            'name' => "",
+            'name' => "При включении красного сигнала изображенного светофора движение запрещается:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '179',
@@ -1441,7 +1441,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '428',
-            'name' => "",
+            'name' => "В этой ситуации движение разрешается:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '180',
@@ -1449,7 +1449,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '429',
-            'name' => "",
+            'name' => "При выключении или неисправности трамвайных светофоров водители трамваев должны руководствоваться:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '181',
@@ -1457,7 +1457,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '430',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '182',
@@ -1465,7 +1465,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '431',
-            'name' => "",
+            'name' => "Сигналами какого светофора должны руководствоваться велосипедисты?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '183',
@@ -1473,7 +1473,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '432',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '184',
@@ -1481,7 +1481,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '433',
-            'name' => "",
+            'name' => "К дорожному оборудованию, устанавливаемому на опасных участках дорог, относятся:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '185',
@@ -1489,7 +1489,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '434',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '186',
@@ -1497,7 +1497,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '435',
-            'name' => "",
+            'name' => "В данной ситуации движение разрешено:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '187',
@@ -1505,7 +1505,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '436',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '188',
@@ -1513,7 +1513,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '437',
-            'name' => "",
+            'name' => "Сигнал светофора в виде зеленой стрелки, указывающей налево:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '189',
@@ -1521,7 +1521,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '438',
-            'name' => "",
+            'name' => "В этом случае вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '190',
@@ -1529,7 +1529,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '439',
-            'name' => "",
+            'name' => "При включенных красных сигналах изображенного светофора движение транспортных средств через переезд:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '191',
@@ -1537,7 +1537,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '440',
-            'name' => "",
+            'name' => "В этом случае движение разрешается:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '192',
@@ -1545,7 +1545,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '441',
-            'name' => "",
+            'name' => "Мигающий зеленый сигнал светофора движение транспортных средств:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '193',
@@ -1553,7 +1553,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '442',
-            'name' => "",
+            'name' => "В этой ситуации движение разрешено:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '194',
@@ -1561,7 +1561,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '443',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '195',
@@ -1569,7 +1569,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '444',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '196',
@@ -1577,7 +1577,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '445',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '197',
@@ -1585,7 +1585,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '446',
-            'name' => "",
+            'name' => "Таблички к дорожным знакам уточняют или ограничивают действие дорожных знаков:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '198',
@@ -1593,7 +1593,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '447',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '199',
@@ -1601,7 +1601,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '448',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '200',
@@ -1609,7 +1609,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '449',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '201',
@@ -1617,7 +1617,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '450',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '202',
@@ -1625,7 +1625,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '451',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '203',
@@ -1633,7 +1633,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '452',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '204',
@@ -1641,7 +1641,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '453',
-            'name' => "",
+            'name' => "Как располагаются основные световые сигналы светофоров?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '205',
@@ -1649,7 +1649,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '454',
-            'name' => "",
+            'name' => "Выпуклое зеркало как дополнительное средство регулирования применяется для расширения обзорности:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '206',
@@ -1657,7 +1657,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '455',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '207',
@@ -1665,7 +1665,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '456',
-            'name' => "",
+            'name' => "Дорожная разметка используется с дорожными знаками:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '208',
@@ -1673,7 +1673,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '457',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '209',
@@ -1681,7 +1681,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '458',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '210',
@@ -1689,7 +1689,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '459',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '211',
@@ -1697,7 +1697,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '460',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '212',
@@ -1705,7 +1705,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '461',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '213',
@@ -1713,7 +1713,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '462',
-            'name' => "",
+            'name' => "Мигающий белолунный сигнал светофора на железнодорожном переезде:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '214',
@@ -1721,7 +1721,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '463',
-            'name' => "",
+            'name' => "В этом случае вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '215',
@@ -1729,7 +1729,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '464',
-            'name' => "",
+            'name' => "Осуществить движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '216',
@@ -1737,7 +1737,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '465',
-            'name' => "",
+            'name' => "Вертикальная разметка наносится на дорожных сооружениях и элементах оборудования дорог в виде полос:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '217',
@@ -1745,7 +1745,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '466',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '218',
@@ -1753,7 +1753,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '467',
-            'name' => "",
+            'name' => "Зеленый сигнал этого светофора в виде направленной вниз стрелки:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '219',
@@ -1761,7 +1761,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '468',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '220',
@@ -1769,7 +1769,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '469',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '221',
@@ -1777,7 +1777,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '470',
-            'name' => "",
+            'name' => "Черные контурные стрелки на красном и желтом сигналах светофора:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '222',
@@ -1785,7 +1785,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '471',
-            'name' => "",
+            'name' => "При этом жесте регулировщика движение в направлениях, показанных на рисунке стрелками, разрешается:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '223',
@@ -1793,7 +1793,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '472',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '224',
@@ -1801,7 +1801,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '473',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '225',
@@ -1809,7 +1809,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '474',
-            'name' => "",
+            'name' => "В этой ситуации движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '226',
@@ -1817,7 +1817,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '475',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '227',
@@ -1825,7 +1825,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '476',
-            'name' => "",
+            'name' => "Какие из перечисленных средств относятся к дорожному оборудованию?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '228',
@@ -1833,7 +1833,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '477',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '229',
@@ -1841,7 +1841,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '478',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '230',
@@ -1849,7 +1849,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '479',
-            'name' => "",
+            'name' => "Водители каких транспортных средств нарушают Правила, двигаясь с учетом включенных указателей поворотов?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '231',
@@ -1857,7 +1857,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '480',
-            'name' => "",
+            'name' => "При выключенных световых сигналах изображенного светофора, расположенного над полосой для реверсивного движения, въезд на нее:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '232',
@@ -1865,7 +1865,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '481',
-            'name' => "",
+            'name' => "В этом случае движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '233',
@@ -1873,7 +1873,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '482',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '234',
@@ -1881,7 +1881,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '483',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '235',
@@ -1889,7 +1889,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '484',
-            'name' => "",
+            'name' => "Движение троллейбусов регулируется сигналами светофора:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '236',
@@ -1897,7 +1897,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '485',
-            'name' => "",
+            'name' => "В какой последовательности располагаются сигналы в светофорах с вертикальным их расположением?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '237',
@@ -1905,7 +1905,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '486',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '238',
@@ -1913,7 +1913,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '487',
-            'name' => "",
+            'name' => "В этой ситуации движение разрешено:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '239',
@@ -1921,7 +1921,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '488',
-            'name' => "",
+            'name' => "В этой ситуации Вам движение:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '240',
@@ -1929,7 +1929,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '489',
-            'name' => "",
+            'name' => "В этой ситуации движение разрешается:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '241',
@@ -1937,7 +1937,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '490',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '242',
@@ -1945,7 +1945,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '491',
-            'name' => "",
+            'name' => "Горизонтальная дорожная разметка, нанесенная на проезжей части или по верху бордюра:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '243',
@@ -1953,7 +1953,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '492',
-            'name' => "",
+            'name' => "Какой из направляющих столбиков обозначает внешний край правой обочины?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '244',
@@ -1961,7 +1961,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '493',
-            'name' => "",
+            'name' => "В этой ситуации движение разрешается:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '245',
@@ -1969,7 +1969,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '494',
-            'name' => "",
+            'name' => "Световые сигналы какого из изображенных светофоров разрешают движение трамвая?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '246',
@@ -1977,7 +1977,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '495',
-            'name' => "",
+            'name' => "В этом случае Вам движение:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '247',
@@ -1985,7 +1985,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '496',
-            'name' => "",
+            'name' => "Какой сигнал реверсивного светофора разрешает движение по той полосе, над которой он установлен?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '248',
@@ -1993,7 +1993,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '497',
-            'name' => "",
+            'name' => "В этом случае Вам движение направо:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '249',
@@ -2001,7 +2001,7 @@ class m150407_135549_populate_chapter8_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '498',
-            'name' => "",
+            'name' => "Для поворота направо Вы:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '250',
