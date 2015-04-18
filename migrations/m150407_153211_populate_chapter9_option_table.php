@@ -2,7 +2,6 @@
 
 use yii\db\Schema;
 use yii\db\Migration;
-use yii\db\Query;
 
 class m150407_153211_populate_chapter9_option_table extends Migration
 {
@@ -10,445 +9,445 @@ class m150407_153211_populate_chapter9_option_table extends Migration
     {
         $this->insert('option', [
             'id' => '1738',
-            'name' => "",
+            'name' => "Только грузового автомобиля.",
             'num' => '1',
             'question_id' => '499',
         ]);
         $this->insert('option', [
             'id' => '1739',
-            'name' => "",
+            'name' => "Только легкового автомобиля.",
             'num' => '2',
             'question_id' => '499',
         ]);
         $this->insert('option', [
             'id' => '1740',
-            'name' => "",
+            'name' => "Обоих автомобилей.",
             'num' => '3',
             'question_id' => '499',
         ]);
         $this->insert('option', [
             'id' => '1741',
-            'name' => "",
+            'name' => "Только подаваемые световыми указателями поворота или рукой.",
             'num' => '1',
             'question_id' => '500',
         ]);
         $this->insert('option', [
             'id' => '1742',
-            'name' => "",
+            'name' => "Только звуковые сигналы и переключение света фар.",
             'num' => '2',
             'question_id' => '500',
         ]);
         $this->insert('option', [
             'id' => '1743',
-            'name' => "",
+            'name' => "3.	Только включение опознавательного знака автопоезда и проблескового маячка оранжевого цвета.",
             'num' => '3',
             'question_id' => '500',
         ]);
         $this->insert('option', [
             'id' => '1744',
-            'name' => "",
+            'name' => "Любой вышеперечисленный сигнал.",
             'num' => '4',
             'question_id' => '500',
         ]);
         $this->insert('option', [
             'id' => '1745',
-            'name' => "",
+            'name' => "Только перечисленные в ответах 1 и 2 сигналы.",
             'num' => '5',
             'question_id' => '500',
         ]);
         $this->insert('option', [
             'id' => '1746',
-            'name' => "",
+            'name' => "1.Только 1.",
             'num' => '1',
             'question_id' => '501',
         ]);
         $this->insert('option', [
             'id' => '1747',
-            'name' => "",
+            'name' => "2. Только 1 и 2.",
             'num' => '2',
             'question_id' => '501',
         ]);
         $this->insert('option', [
             'id' => '1748',
-            'name' => "",
+            'name' => "3. Все подают.",
             'num' => '3',
             'question_id' => '501',
         ]);
         $this->insert('option', [
             'id' => '1749',
-            'name' => "",
+            'name' => "1. Только переключение света фар.",
             'num' => '1',
             'question_id' => '502',
         ]);
         $this->insert('option', [
             'id' => '1750',
-            'name' => "",
+            'name' => "2. Только звуковой сигнал.",
             'num' => '2',
             'question_id' => '502',
         ]);
         $this->insert('option', [
             'id' => '1751',
-            'name' => "",
+            'name' => "Переключение света фар и звуковой сигнал.",
             'num' => '3',
             'question_id' => '502',
         ]);
         $this->insert('option', [
             'id' => '1752',
-            'name' => "",
+            'name' => "Только в случае причастности к дорожно-транспортному происшествию.",
             'num' => '1',
             'question_id' => '503',
         ]);
         $this->insert('option', [
             'id' => '1753',
-            'name' => "",
+            'name' => "Только в случае ослепления водителя светом фар.",
             'num' => '2',
             'question_id' => '503',
         ]);
         $this->insert('option', [
             'id' => '1754',
-            'name' => "",
+            'name' => "Только в случае вынужденной остановки на дороге.",
             'num' => '3',
             'question_id' => '503',
         ]);
         $this->insert('option', [
             'id' => '1755',
-            'name' => "",
+            'name' => "Во всех перечисленных выше случаях.",
             'num' => '4',
             'question_id' => '503',
         ]);
         $this->insert('option', [
             'id' => '1756',
-            'name' => "",
+            'name' => "50-100м.",
             'num' => '1',
             'question_id' => '504',
         ]);
         $this->insert('option', [
             'id' => '1757',
-            'name' => "",
+            'name' => "100-150 м.",
             'num' => '2',
             'question_id' => '504',
         ]);
         $this->insert('option', [
             'id' => '1758',
-            'name' => "",
+            'name' => "150-200 м.",
             'num' => '3',
             'question_id' => '504',
         ]);
         $this->insert('option', [
             'id' => '1759',
-            'name' => "",
+            'name' => "200-250 м.",
             'num' => '4',
             'question_id' => '504',
         ]);
         $this->insert('option', [
             'id' => '1760',
-            'name' => "",
+            'name' => "Только знак аварийной остановки.",
             'num' => '1',
             'question_id' => '505',
         ]);
         $this->insert('option', [
             'id' => '1761',
-            'name' => "",
+            'name' => "Только мигающий красный фонарь.",
             'num' => '2',
             'question_id' => '505',
         ]);
         $this->insert('option', [
             'id' => '1762',
-            'name' => "",
+            'name' => "Знак аварийной остановки или мигающий красный фонарь.",
             'num' => '3',
             'question_id' => '505',
         ]);
         $this->insert('option', [
             'id' => '1763',
-            'name' => "",
+            'name' => "Перед остановкой у края проезжей части.",
             'num' => '1',
             'question_id' => '506',
         ]);
         $this->insert('option', [
             'id' => '1764',
-            'name' => "",
+            'name' => "Перед въездом на закругление дороги, обозначенным дорожным знаком \"Поворот направо\" или \"Поворот налево\".",
             'num' => '2',
             'question_id' => '506',
         ]);
         $this->insert('option', [
             'id' => '1765',
-            'name' => "",
+            'name' => "Перед поворотом при съезде на площадку для отдыха.",
             'num' => '3',
             'question_id' => '506',
         ]);
         $this->insert('option', [
             'id' => '1766',
-            'name' => "",
+            'name' => "Перед изменением направления движения.",
             'num' => '4',
             'question_id' => '506',
         ]);
         $this->insert('option', [
             'id' => '1767',
-            'name' => "",
+            'name' => "Во всех вышеперечисленных случаях.",
             'num' => '5',
             'question_id' => '506',
         ]);
         $this->insert('option', [
             'id' => '1768',
-            'name' => "",
+            'name' => "1. Только на маршрутном автобусе.",
             'num' => '1',
             'question_id' => '507',
         ]);
         $this->insert('option', [
             'id' => '1769',
-            'name' => "",
+            'name' => "2. Только на грузовом автомобиле, перевозящем опасный груз.",
             'num' => '2',
             'question_id' => '507',
         ]);
         $this->insert('option', [
             'id' => '1770',
-            'name' => "",
+            'name' => "3. На маршрутном автобусе * и грузовом автомобиле.",
             'num' => '3',
             'question_id' => '507',
         ]);
         $this->insert('option', [
             'id' => '1771',
-            'name' => "",
+            'name' => "4. Только на легковом автомобиле.",
             'num' => '4',
             'question_id' => '507',
         ]);
         $this->insert('option', [
             'id' => '1772',
-            'name' => "",
+            'name' => "Левой или правой рукой, поднятой вверх.",
             'num' => '1',
             'question_id' => '508',
         ]);
         $this->insert('option', [
             'id' => '1773',
-            'name' => "",
+            'name' => "Правой рукой, вытянутой в сторону и согнутой в локте вверх.",
             'num' => '2',
             'question_id' => '508',
         ]);
         $this->insert('option', [
             'id' => '1774',
-            'name' => "",
+            'name' => "Левой рукой, вытянутой в сторону и согнутой в локте вверх.",
             'num' => '3',
             'question_id' => '508',
         ]);
         $this->insert('option', [
             'id' => '1775',
-            'name' => "",
+            'name' => "20 м.",
             'num' => '1',
             'question_id' => '509',
         ]);
         $this->insert('option', [
             'id' => '1776',
-            'name' => "",
+            'name' => "30 м.",
             'num' => '2',
             'question_id' => '509',
         ]);
         $this->insert('option', [
             'id' => '1777',
-            'name' => "",
+            'name' => "40 м.",
             'num' => '3',
             'question_id' => '509',
         ]);
         $this->insert('option', [
             'id' => '1778',
-            'name' => "",
+            'name' => "50 м.",
             'num' => '4',
             'question_id' => '509',
         ]);
         $this->insert('option', [
             'id' => '1779',
-            'name' => "",
+            'name' => "Только левой рукой, вытянутой в сторону.",
             'num' => '1',
             'question_id' => '510',
         ]);
         $this->insert('option', [
             'id' => '1780',
-            'name' => "",
+            'name' => "Только правой рукой, вытянутой в сторону и согнутой в локте под прямым углом вверх.",
             'num' => '2',
             'question_id' => '510',
         ]);
         $this->insert('option', [
             'id' => '1781',
-            'name' => "",
+            'name' => "Одним из перечисленных выше действий.",
             'num' => '3',
             'question_id' => '510',
         ]);
         $this->insert('option', [
             'id' => '1782',
-            'name' => "",
+            'name' => "Разрешается.",
             'num' => '1',
             'question_id' => '511',
         ]);
         $this->insert('option', [
             'id' => '1783',
-            'name' => "",
+            'name' => "Запрещается.",
             'num' => '2',
             'question_id' => '511',
         ]);
         $this->insert('option', [
             'id' => '1784',
-            'name' => "",
+            'name' => "Только включить аварийную световую сигнализацию.",
             'num' => '1',
             'question_id' => '512',
         ]);
         $this->insert('option', [
             'id' => '1785',
-            'name' => "",
+            'name' => "Только установить знак аварийной остановки либо мигающий красный фонарь.",
             'num' => '2',
             'question_id' => '512',
         ]);
         $this->insert('option', [
             'id' => '1786',
-            'name' => "",
+            'name' => "Выполнить оба действия.",
             'num' => '3',
             'question_id' => '512',
         ]);
         $this->insert('option', [
             'id' => '1787',
-            'name' => "",
+            'name' => "Только в случае, если за ним движется другое транспортное средство.",
             'num' => '1',
             'question_id' => '513',
         ]);
         $this->insert('option', [
             'id' => '1788',
-            'name' => "",
+            'name' => "Только в населенных пунктах.",
             'num' => '2',
             'question_id' => '513',
         ]);
         $this->insert('option', [
             'id' => '1789',
-            'name' => "",
+            'name' => "Только в темное время суток и в условиях недостаточной видимости.",
             'num' => '3',
             'question_id' => '513',
         ]);
         $this->insert('option', [
             'id' => '1790',
-            'name' => "",
+            'name' => "В любом случае, кроме тех, если он может быть непонятным для других участников дорожного движения.",
             'num' => '4',
             'question_id' => '513',
         ]);
         $this->insert('option', [
             'id' => '1791',
-            'name' => "",
+            'name' => "Ближний свет фар.",
             'num' => '1',
             'question_id' => '514',
         ]);
         $this->insert('option', [
             'id' => '1792',
-            'name' => "",
+            'name' => "Аварийную световую сигнализацию.",
             'num' => '2',
             'question_id' => '514',
         ]);
         $this->insert('option', [
             'id' => '1793',
-            'name' => "",
+            'name' => "Только грузовой автомобиль.",
             'num' => '1',
             'question_id' => '515',
         ]);
         $this->insert('option', [
             'id' => '1794',
-            'name' => "",
+            'name' => "Только микроавтобус.",
             'num' => '2',
             'question_id' => '515',
         ]);
         $this->insert('option', [
             'id' => '1795',
-            'name' => "",
+            'name' => "Только легковой автомобиль.",
             'num' => '3',
             'question_id' => '515',
         ]);
         $this->insert('option', [
             'id' => '1796',
-            'name' => "",
+            'name' => "Только грузовой автомобиль и мотоцикл.",
             'num' => '4',
             'question_id' => '515',
         ]);
         $this->insert('option', [
             'id' => '1797',
-            'name' => "",
+            'name' => "Все, кроме легкового автомобиля.",
             'num' => '5',
             'question_id' => '515',
         ]);
         $this->insert('option', [
             'id' => '1798',
-            'name' => "",
+            'name' => "Необходимо выставить сзади знак аварийной остановки.",
             'num' => '1',
             'question_id' => '516',
         ]);
         $this->insert('option', [
             'id' => '1799',
-            'name' => "",
+            'name' => "Включить аварийную сигнализацию на переднем и заднем автомобилях.",
             'num' => '2',
             'question_id' => '516',
         ]);
         $this->insert('option', [
             'id' => '1800',
-            'name' => "",
+            'name' => "На всех автомобилях включить аварийную сигнализацию.",
             'num' => '3',
             'question_id' => '516',
         ]);
         $this->insert('option', [
             'id' => '1801',
-            'name' => "",
+            'name' => "Запрещается во всех случаях.",
             'num' => '1',
             'question_id' => '517',
         ]);
         $this->insert('option', [
             'id' => '1802',
-            'name' => "",
+            'name' => "Запрещается только в условиях, когда это может привести к ослеплению других водителей.",
             'num' => '2',
             'question_id' => '517',
         ]);
         $this->insert('option', [
             'id' => '1803',
-            'name' => "",
+            'name' => "Разрешается во всех случаях.",
             'num' => '3',
             'question_id' => '517',
         ]);
         $this->insert('option', [
             'id' => '1804',
-            'name' => "",
+            'name' => "Габаритные фонари или противотуманные фары.",
             'num' => '1',
             'question_id' => '518',
         ]);
         $this->insert('option', [
             'id' => '1805',
-            'name' => "",
+            'name' => "Ближний свет фар.",
             'num' => '2',
             'question_id' => '518',
         ]);
         $this->insert('option', [
             'id' => '1806',
-            'name' => "",
+            'name' => "Аварийная световая сигнализация.",
             'num' => '3',
             'question_id' => '518',
         ]);
         $this->insert('option', [
             'id' => '1807',
-            'name' => "",
+            'name' => "Только правой рукой, вытянутой в сторону.",
             'num' => '1',
             'question_id' => '519',
         ]);
         $this->insert('option', [
             'id' => '1808',
-            'name' => "",
+            'name' => "Только левой рукой, вытянутой в сторону и согнутой в локте под прямым углом вверх.",
             'num' => '2',
             'question_id' => '519',
         ]);
         $this->insert('option', [
             'id' => '1809',
-            'name' => "",
+            'name' => "Одним из перечисленных выше действием.",
             'num' => '3',
             'question_id' => '519',
         ]);
         $this->insert('option', [
             'id' => '1810',
-            'name' => "",
+            'name' => "Разрешается.",
             'num' => '1',
             'question_id' => '520',
         ]);
         $this->insert('option', [
             'id' => '1811',
-            'name' => "",
+            'name' => "Запрещается.",
             'num' => '2',
             'question_id' => '520',
         ]);
@@ -478,319 +477,319 @@ class m150407_153211_populate_chapter9_option_table extends Migration
         ]);
         $this->insert('option', [
             'id' => '1816',
-            'name' => "",
+            'name' => "Включить аварийную световую сигнализацию.",
             'num' => '1',
             'question_id' => '522',
         ]);
         $this->insert('option', [
             'id' => '1817',
-            'name' => "",
+            'name' => "Только выставить знак аварийной остановки.",
             'num' => '2',
             'question_id' => '522',
         ]);
         $this->insert('option', [
             'id' => '1818',
-            'name' => "",
+            'name' => "Только включить габаритные фонари.",
             'num' => '3',
             'question_id' => '522',
         ]);
         $this->insert('option', [
             'id' => '1819',
-            'name' => "",
+            'name' => "Выполнить все вышеперечисленные действия.",
             'num' => '4',
             'question_id' => '522',
         ]);
         $this->insert('option', [
             'id' => '1820',
-            'name' => "",
+            'name' => "Выполнить действия, перечисленные в ответах 1 и 2.",
             'num' => '5',
             'question_id' => '522',
         ]);
         $this->insert('option', [
             'id' => '1821',
-            'name' => "",
+            'name' => "1. Габаритные фонари или противотуманные фары.",
             'num' => '1',
             'question_id' => '523',
         ]);
         $this->insert('option', [
             'id' => '1822',
-            'name' => "",
+            'name' => "2. Ближний свет фар.",
             'num' => '2',
             'question_id' => '523',
         ]);
         $this->insert('option', [
             'id' => '1823',
-            'name' => "",
+            'name' => "3. Аварийная световая сигнализация.",
             'num' => '3',
             'question_id' => '523',
         ]);
         $this->insert('option', [
             'id' => '1824',
-            'name' => "",
+            'name' => "4. Дальний свет фар.",
             'num' => '4',
             'question_id' => '523',
         ]);
         $this->insert('option', [
             'id' => '1825',
-            'name' => "",
+            'name' => "Только в случае совершения дорожно-транспортного происшествия.",
             'num' => '1',
             'question_id' => '524',
         ]);
         $this->insert('option', [
             'id' => '1826',
-            'name' => "",
+            'name' => "Только в случае вынужденной остановки в местах с ограниченной обзорностью дороги хотя бы в одном направлении менее 100 м.",
             'num' => '2',
             'question_id' => '524',
         ]);
         $this->insert('option', [
             'id' => '1827',
-            'name' => "",
+            'name' => "Во всех перечисленных выше случаях.",
             'num' => '3',
             'question_id' => '524',
         ]);
         $this->insert('option', [
             'id' => '1828',
-            'name' => "",
+            'name' => "10 м.",
             'num' => '1',
             'question_id' => '525',
         ]);
         $this->insert('option', [
             'id' => '1829',
-            'name' => "",
+            'name' => "20 м.",
             'num' => '2',
             'question_id' => '525',
         ]);
         $this->insert('option', [
             'id' => '1830',
-            'name' => "",
+            'name' => "30 м.",
             'num' => '3',
             'question_id' => '525',
         ]);
         $this->insert('option', [
             'id' => '1831',
-            'name' => "",
+            'name' => "40 м.",
             'num' => '4',
             'question_id' => '525',
         ]);
         $this->insert('option', [
             'id' => '1832',
-            'name' => "",
+            'name' => "Только габаритные огни.",
             'num' => '1',
             'question_id' => '526',
         ]);
         $this->insert('option', [
             'id' => '1833',
-            'name' => "",
+            'name' => "Только аварийную сигнализацию.",
             'num' => '2',
             'question_id' => '526',
         ]);
         $this->insert('option', [
             'id' => '1834',
-            'name' => "",
+            'name' => "Ближний свет фар.",
             'num' => '3',
             'question_id' => '526',
         ]);
         $this->insert('option', [
             'id' => '1835',
-            'name' => "",
+            'name' => "Аварийную световую сигнализацию на обоих.",
             'num' => '1',
             'question_id' => '527',
         ]);
         $this->insert('option', [
             'id' => '1836',
-            'name' => "",
+            'name' => "Ближний свет фар на обоих.",
             'num' => '2',
             'question_id' => '527',
         ]);
         $this->insert('option', [
             'id' => '1837',
-            'name' => "",
+            'name' => "Ближний свет фар на буксирующем и аварийную световую сигнализацию — на буксируемом.",
             'num' => '3',
             'question_id' => '527',
         ]);
         $this->insert('option', [
             'id' => '1838',
-            'name' => "",
+            'name' => "Аварийную световую сигнализацию на буксирующем и ближний свет фар — на буксируемом.",
             'num' => '4',
             'question_id' => '527',
         ]);
         $this->insert('option', [
             'id' => '1839',
-            'name' => "",
+            'name' => "Дает.",
             'num' => '1',
             'question_id' => '528',
         ]);
         $this->insert('option', [
             'id' => '1840',
-            'name' => "",
+            'name' => "Не дает.",
             'num' => '2',
             'question_id' => '528',
         ]);
         $this->insert('option', [
             'id' => '1841',
-            'name' => "",
+            'name' => "Непосредственно перед началом выполнения маневра.",
             'num' => '1',
             'question_id' => '529',
         ]);
         $this->insert('option', [
             'id' => '1842',
-            'name' => "",
+            'name' => "За 25 м до начала выполнения маневра в населенном пункте.",
             'num' => '2',
             'question_id' => '529',
         ]);
         $this->insert('option', [
             'id' => '1843',
-            'name' => "",
+            'name' => "За 50 м до начала выполнения маневра.",
             'num' => '3',
             'question_id' => '529',
         ]);
         $this->insert('option', [
             'id' => '1844',
-            'name' => "",
+            'name' => "Только во время посадки детей.",
             'num' => '1',
             'question_id' => '530',
         ]);
         $this->insert('option', [
             'id' => '1845',
-            'name' => "",
+            'name' => "Только во время высадки детей.",
             'num' => '2',
             'question_id' => '530',
         ]);
         $this->insert('option', [
             'id' => '1846',
-            'name' => "",
+            'name' => "Только во время движения транспортного средства.",
             'num' => '3',
             'question_id' => '530',
         ]);
         $this->insert('option', [
             'id' => '1847',
-            'name' => "",
+            'name' => "Во всех вышеперечисленных случаях.",
             'num' => '4',
             'question_id' => '530',
         ]);
         $this->insert('option', [
             'id' => '1848',
-            'name' => "",
+            'name' => "В случаях, перечисленных в ответах 1 и 2.",
             'num' => '5',
             'question_id' => '530',
         ]);
         $this->insert('option', [
             'id' => '1849',
-            'name' => "",
+            'name' => "Только при движении в населенных пунктах.",
             'num' => '1',
             'question_id' => '531',
         ]);
         $this->insert('option', [
             'id' => '1850',
-            'name' => "",
+            'name' => "Только при движении вне населенного пункта.",
             'num' => '2',
             'question_id' => '531',
         ]);
         $this->insert('option', [
             'id' => '1851',
-            'name' => "",
+            'name' => "В обоих перечисленных случаях.",
             'num' => '3',
             'question_id' => '531',
         ]);
         $this->insert('option', [
             'id' => '1852',
-            'name' => "",
+            'name' => "20-50 м.",
             'num' => '1',
             'question_id' => '532',
         ]);
         $this->insert('option', [
             'id' => '1853',
-            'name' => "",
+            'name' => "50-100 м.",
             'num' => '2',
             'question_id' => '532',
         ]);
         $this->insert('option', [
             'id' => '1854',
-            'name' => "",
+            'name' => "100-150 м.",
             'num' => '3',
             'question_id' => '532',
         ]);
         $this->insert('option', [
             'id' => '1855',
-            'name' => "",
+            'name' => "150-200 м.",
             'num' => '4',
             'question_id' => '532',
         ]);
         $this->insert('option', [
             'id' => '1856',
-            'name' => "",
+            'name' => "На дорогах вне населенных пунктов, кроме случаев привлечения внимания водителя обгоняемого транспортного средства.",
             'num' => '1',
             'question_id' => '533',
         ]);
         $this->insert('option', [
             'id' => '1857',
-            'name' => "",
+            'name' => "В населенных пунктах, кроме случаев, когда без этого невозможно предотвратить дорожно-транспортное происшествие.",
             'num' => '2',
             'question_id' => '533',
         ]);
         $this->insert('option', [
             'id' => '1858',
-            'name' => "",
+            'name' => "В обоих перечисленных местах.",
             'num' => '3',
             'question_id' => '533',
         ]);
         $this->insert('option', [
             'id' => '1859',
-            'name' => "",
+            'name' => "Только водитель легкового автомобиля.",
             'num' => '1',
             'question_id' => '534',
         ]);
         $this->insert('option', [
             'id' => '1860',
-            'name' => "",
+            'name' => "Только водитель микроавтобуса.",
             'num' => '2',
             'question_id' => '534',
         ]);
         $this->insert('option', [
             'id' => '1861',
-            'name' => "",
+            'name' => "Оба водителя.",
             'num' => '3',
             'question_id' => '534',
         ]);
         $this->insert('option', [
             'id' => '1862',
-            'name' => "",
+            'name' => "Включением ближнего света фар.",
             'num' => '1',
             'question_id' => '535',
         ]);
         $this->insert('option', [
             'id' => '1863',
-            'name' => "",
+            'name' => "Включением аварийной световой сигнализации.",
             'num' => '2',
             'question_id' => '535',
         ]);
         $this->insert('option', [
             'id' => '1864',
-            'name' => "",
+            'name' => "Включением габаритных (стояночных) огней.",
             'num' => '3',
             'question_id' => '535',
         ]);
         $this->insert('option', [
             'id' => '1865',
-            'name' => "",
+            'name' => "Включением любых из перечисленных выше световых приборов.",
             'num' => '4',
             'question_id' => '535',
         ]);
         $this->insert('option', [
             'id' => '1866',
-            'name' => "",
+            'name' => "Должен.",
             'num' => '1',
             'question_id' => '536',
         ]);
         $this->insert('option', [
             'id' => '1867',
-            'name' => "",
+            'name' => "Не должен.",
             'num' => '2',
             'question_id' => '536',
         ]);
         $this->insert('option', [
             'id' => '1868',
-            'name' => "",
+            'name' => "Должен только в случае наличия сзади транспортных средств.",
             'num' => '3',
             'question_id' => '536',
         ]);

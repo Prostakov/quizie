@@ -9,7 +9,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
     {
         $this->insert('question', [
             'id' => '657',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю легкового автомобиля после проезда перекрестка?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '1',
@@ -17,7 +17,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '658',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение мотоцикла на автомагистрали, если его водитель имеет водительский стаж 3 года?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '2',
@@ -25,7 +25,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '659',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение легковому автомобилю в населенном пункте, обозначенном этим знаком?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '3',
@@ -33,7 +33,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '660',
-            'name' => "",
+            'name' => "Водителю какого транспортного средства разрешается движение со скоростью 90 км/ч на этом участке дороги?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '4',
@@ -41,7 +41,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '661',
-            'name' => "",
+            'name' => "Водитель какого транспортного средства не нарушает Правила, двигаясь со скоростью 20 км/ч?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '5',
@@ -49,7 +49,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '662',
-            'name' => "",
+            'name' => "В этом случае максимальная скорость движения грузового автомобиля не должна превышать:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '6',
@@ -57,7 +57,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '663',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается продолжить движение водителю легкового автомобиля после проезда этого дорожного знака?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '7',
@@ -65,7 +65,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '664',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю грузового автомобиля на этом участке дороги?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '8',
@@ -73,7 +73,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '665',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается буксировка механическим транспортным средством?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '9',
@@ -81,7 +81,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '666',
-            'name' => "",
+            'name' => "Водители каких транспортных средств нарушают Правила, двигаясь со скоростью 90 км/ч?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '10',
@@ -89,7 +89,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '667',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю микроавтобуса в этом случае?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '11',
@@ -97,7 +97,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '668',
-            'name' => "",
+            'name' => "Разрешается ли водителю автобуса междугородного сообщения двигаться со скоростью более 90 км/ч на этом участке дороги?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '12',
@@ -105,7 +105,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '669',
-            'name' => "",
+            'name' => "На каком участке дороги водителю мотоцикла запрещается движение со скоростью 80 км/ч?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '13',
@@ -113,7 +113,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '670',
-            'name' => "",
+            'name' => "С какой скоростью разрешается движение грузового автомобиля на этом участке дороги?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '14',
@@ -121,7 +121,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '671',
-            'name' => "",
+            'name' => "Водителю какого транспортного средства разрешается превышать установленные Правилами ограничения скорости движения?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '15',
@@ -129,7 +129,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '672',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается такое движение?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '16',
@@ -137,7 +137,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '673',
-            'name' => "",
+            'name' => "При приближении к участку дороги, о котором информирует изображенный на рисунке дорожный знак, водитель должен вести транспортное средство со скоростью:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '17',
@@ -145,7 +145,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '674',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение мотоциклисту в этом населенном пункте?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '18',
@@ -153,7 +153,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '675',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение грузовым автомобилям на дороге для автомобилей, проходящей через населенный пункт, обозначенный знаком 5.47 (начало населенного пункта на синем фоне)?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '19',
@@ -161,7 +161,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '676',
-            'name' => "",
+            'name' => "Разрешается ли водителю легкового автомобиля выполнить опережение мотоцикла, движущегося со скоростью 80 км/ч?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '20',
@@ -169,7 +169,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '677',
-            'name' => "",
+            'name' => "В каких случаях водителю легкового автомобиля разрешается движение со скоростью до 70 км/ч в населенном пункте?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '21',
@@ -177,7 +177,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '678',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю легкового автомобиля после поворота налево?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '22',
@@ -185,7 +185,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '679',
-            'name' => "",
+            'name' => "Водитель какого транспортного средства нарушает Правила, двигаясь со скоростью 90 км/ч?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '23',
@@ -193,7 +193,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '680',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю микроавтобуса на этом участке дороги?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '24',
@@ -201,7 +201,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '681',
-            'name' => "",
+            'name' => "Водитель какого транспортного средства нарушает требования Правил, двигаясь по левой полосе со скоростью 80 км/ч?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '25',
@@ -209,7 +209,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '682',
-            'name' => "",
+            'name' => "Разрешается ли водителю автомобиля движение со скоростью 70 км/ч после проезда места, где расположены дорожные знаки?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '26',
@@ -217,7 +217,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '683',
-            'name' => "",
+            'name' => "Водитель какого транспортного средства не нарушает Правила, двигаясь со скоростью 60 км/ч?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '27',
@@ -225,7 +225,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '684',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю автомобиля с включенными маячками на этом участке дороги?",
             'correct_option' => '5',
             'rule_reference' => '',
             'num' => '28',
@@ -233,7 +233,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '685',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение грузовым автомобилям с прицепом вне населенных пунктов на дорогах без разделительной полосы и которые не отнесены к автомагистралям или дорогам для автомобилей?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '29',
@@ -241,7 +241,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '686',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю мопеда в населенном пункте, обозначенном этим знаком?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '30',
@@ -249,7 +249,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '687',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение автобуса, обозначенного этим знаком?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '31',
@@ -257,7 +257,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '688',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение легковому автомобилю в населенном пункте, обозначенном этим знаком?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '32',
@@ -265,7 +265,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '689',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю легкового автомобиля после поворота направо?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '33',
@@ -273,7 +273,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '690',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю легкового автомобиля на этой дороге?",
             'correct_option' => '5',
             'rule_reference' => '',
             'num' => '34',
@@ -281,7 +281,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '691',
-            'name' => "",
+            'name' => "При выборе безопасной скорости движения транспортного средства водитель должен учитывать:",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '35',
@@ -289,7 +289,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '692',
-            'name' => "",
+            'name' => "Разрешается ли водителю без необходимости движение с очень малой скоростью?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '36',
@@ -297,7 +297,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '693',
-            'name' => "",
+            'name' => "Грузовому автомобилю, буксирующему легковой автомобиль, разрешается движение в населенном пункте со скоростью не более:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '37',
@@ -305,7 +305,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '694',
-            'name' => "",
+            'name' => "В жилых и пешеходных зонах скорость движения транспортных средств не должна превышать:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '38',
@@ -313,7 +313,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '695',
-            'name' => "",
+            'name' => "Водителю какого транспортного средства разрешается движение со скоростью 90 км/ч?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '39',
@@ -321,7 +321,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '696',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение мотоциклисту со стажем 3 года на этой дороге?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '40',
@@ -329,7 +329,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '697',
-            'name' => "",
+            'name' => "В случае возникновения препятствия для движения, которое водитель объективно способен обнаружить, он должен немедленно принять меры:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '41',
@@ -337,7 +337,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '698',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю грузового автомобиля с разрешенной максимальной массой более 3,5 т после поворота направо?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '42',
@@ -345,7 +345,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '699',
-            'name' => "",
+            'name' => "На каком из обозначенных на рисунке участке дороги разрешается Вам движение на легковом автомобиле со скоростью 60 км/ч?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '43',
@@ -353,7 +353,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '700',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение легковому автомобилю на этом участке дороги?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '44',
@@ -361,7 +361,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '701',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение легковым автомобилям с прицепом на автомагистрали?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '45',
@@ -369,7 +369,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '702',
-            'name' => "",
+            'name' => "Управляя автобусом, после проезда места, гдо установлен изображенный на рисунке дорожный знак, Вам разрешается продолжить движение с максимальной скоростью:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '46',
@@ -377,7 +377,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '703',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение транспортных средств по проезжей части на обозначенной этим дорожным знаком территории?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '47',
@@ -385,7 +385,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '704',
-            'name' => "",
+            'name' => "Водителю какого из перечисленных в ответах транспортного средства разрешается движение по левой полосе?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '48',
@@ -393,7 +393,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '705',
-            'name' => "",
+            'name' => "С какой максимальной скоростью вам разрешается двигаться после проезда места, где установлены эти дорожные знаки, если ваш водительский стаж составляет 1,5 года?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '49',
@@ -401,7 +401,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '706',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение транспортных средств после проезда этого дорожного знака?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '50',
@@ -409,7 +409,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '707',
-            'name' => "",
+            'name' => "Водитель какого транспортного средства нарушает Правила, двигаясь со скоростью 100 км/ч по этой дороге в населенном пункте, обозначенном знаком 5.47 (на синем фоне)?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '51',
@@ -417,7 +417,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '708',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение грузового автомобиля, перевозящего людей в кузове, на дороге вне населенного пункта?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '52',
@@ -425,7 +425,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '709',
-            'name' => "",
+            'name' => "С какой максимальной скоростью водителю легкового автомобиля разрешается продолжить движение по правой полосе после проезда места расположения дорожного знака над левой полосой?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '53',
@@ -433,7 +433,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '710',
-            'name' => "",
+            'name' => "Водитель какого транспортного средства нарушает Правила, в том числе и двигаясь со скоростью 130 км/ч?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '54',
@@ -441,7 +441,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '711',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается Вам движение на легковом автомобиле до пересечения проезжих частей?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '55',
@@ -449,7 +449,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '712',
-            'name' => "",
+            'name' => "На управляемом вами автомобиле установлен опознавательный знак с числом 50. С какой максимальной скоростью вам разрешается двигаться после проезда этого дорожного знака?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '56',
@@ -457,7 +457,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '713',
-            'name' => "",
+            'name' => "Разрешается ли Правилами превышать максимальную скорость движения, определенную технической характеристикой транспортного средства?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '57',
@@ -465,7 +465,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '714',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю легкового автомобиля с прицепом на этом участке дороги?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '58',
@@ -473,7 +473,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '715',
-            'name' => "",
+            'name' => "Разрешается ли водителю мотоцикла начать опережение микроавтобуса, скорость движения которого 80 км/ч?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '59',
@@ -481,7 +481,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '716',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается Вам движение в населенном пункте после проезда этого знака?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '60',
@@ -489,7 +489,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '717',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение в населенном пункте на этой дороге?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '61',
@@ -497,7 +497,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '718',
-            'name' => "",
+            'name' => "Водителю какого грузового автомобиля разрешается движение со скоростью 100 км/ч?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '62',
@@ -505,7 +505,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '719',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю автомобиля после проезда этого дорожного знака?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '63',
@@ -513,7 +513,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '720',
-            'name' => "",
+            'name' => "Водителю какого транспортного средства разрешается двигаться со скоростью 110 км/ч?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '64',
@@ -521,7 +521,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '721',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается Вам движение после проезда дорожного знака?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '65',
@@ -529,7 +529,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '722',
-            'name' => "",
+            'name' => "Кто из водителей транспортных средств нарушает Правила, двигаясь со скоростью 100 км/ч?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '66',
@@ -537,7 +537,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '723',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю автомобиля после проезда этого знака?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '67',
@@ -545,7 +545,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '724',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается движение водителю легкового автомобиля с прицепом на этом участке дороги?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '68',
@@ -553,7 +553,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '725',
-            'name' => "",
+            'name' => "Разрешается ли коме-либо из водителей движение на этом участке дороги со скоростью 110 км/ч?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '69',
@@ -561,7 +561,7 @@ class m150407_153240_populate_chapter12_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '726',
-            'name' => "",
+            'name' => "С какой максимальной скоростью разрешается Вам движение на этом участке дороги, если Ваш стаж водителя 1 год?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '70',

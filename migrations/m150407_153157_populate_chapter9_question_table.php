@@ -9,7 +9,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
     {
         $this->insert('question', [
             'id' => '499',
-            'name' => "",
+            'name' => "Водитель какого автомобиля нарушает Правила, двигаясь в условиях недостаточной видимости:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '1',
@@ -17,7 +17,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '500',
-            'name' => "",
+            'name' => "Какие сигналы считаются предупреждающими?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '2',
@@ -25,7 +25,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '501',
-            'name' => "",
+            'name' => "Водитель какого из транспортных средств подает предупреждающий сигнал о повороте налево?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '3',
@@ -33,7 +33,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '502',
-            'name' => "",
+            'name' => "В этой ситуации для привлечения внимания водителя грузового автомобиля при обгоне разрешается применять:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '4',
@@ -41,7 +41,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '503',
-            'name' => "",
+            'name' => "В каких случаях водитель обязан включать аварийную световую сигнализацию?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '5',
@@ -49,7 +49,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '504',
-            'name' => "",
+            'name' => "На каком минимальном расстоянии до начала поворота вне населенного пункта должен быть подан предупреждающий сигнал?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '6',
@@ -57,7 +57,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '505',
-            'name' => "",
+            'name' => "Если транспортное средство не оборудовано аварийной световой сигнализацией или она неисправна, то водитель обязан в случае вынужденной остановки установить:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '7',
@@ -65,7 +65,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '506',
-            'name' => "",
+            'name' => "В каком случае не требуется подача предупреждающего сигнала световыми указателями поворота или рукой?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '8',
@@ -73,7 +73,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '507',
-            'name' => "",
+            'name' => "В светлое время суток ближний свет фар должен быть включен:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '9',
@@ -81,7 +81,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '508',
-            'name' => "",
+            'name' => "В случае неисправности световых сигналов торможения водитель обязан подавать сигналы торможения:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '10',
@@ -89,7 +89,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '509',
-            'name' => "",
+            'name' => "На каком минимальном расстоянии до механического транспортного средства вне населенного пункта должен быть выставлен знак аварийной остановки или мигающий красный фонарь?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '11',
@@ -97,7 +97,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '510',
-            'name' => "",
+            'name' => "В случае неисправности или отсутствия световых указателей поворота водитель транспортного средства обязан подавать сигнал поворота налево:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '12',
@@ -105,7 +105,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '511',
-            'name' => "",
+            'name' => "Разрешается ли в этом случае водителю грузового автомобиля применить звуковой сигнал для привлечения внимания водителя обгоняемого микороавтобуса?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '13',
@@ -113,7 +113,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '512',
-            'name' => "",
+            'name' => "Какими должны быть действия водителя автобуса при вынужденной остановке, если обзорность дороги в одном из направлений менее 100 м?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '14',
@@ -121,7 +121,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '513',
-            'name' => "",
+            'name' => "В каких случаях водитель должен подавать предупреждающий сигнал перед остановкой?",
             'correct_option' => '4',
             'rule_reference' => '',
             'num' => '15',
@@ -129,7 +129,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '514',
-            'name' => "",
+            'name' => "При вынужденной остановке грузового автомобиля, буксирующего легковой автомобиль, его водитель должен включить:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '16',
@@ -137,7 +137,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '515',
-            'name' => "",
+            'name' => "Двигаться в светлое время суток с включенным ближним светом фар должны:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '17',
@@ -145,7 +145,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '516',
-            'name' => "",
+            'name' => "Во время остановки колонны на дороге:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '18',
@@ -153,7 +153,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '517',
-            'name' => "",
+            'name' => "Водителю пользоваться дальним светом фар как предупреждающим сигналом:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '19',
@@ -161,7 +161,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '518',
-            'name' => "",
+            'name' => "Какой предупреждающий сигнал должен быть включен на маршрутном автобусе в этом случае?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '20',
@@ -169,7 +169,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '519',
-            'name' => "",
+            'name' => "В случае неисправности или отсутствия световых указателей поворота водитель транспортного средства обязан подавать сигнал поворота направо:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '21',
@@ -177,7 +177,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '520',
-            'name' => "",
+            'name' => "Разрешается ли в этом случае водителю грузового автомобиля применить звуковой сигнал для привлечения внимания водителя обгоняемого легкового автомобиля?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '22',
@@ -185,7 +185,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '521',
-            'name' => "",
+            'name' => "Если на буксируемом транспортном средстве отсутствует или неисправна аварийная световая сигнализация, то оно должно быть обозначено знаком:",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '23',
@@ -193,7 +193,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '522',
-            'name' => "",
+            'name' => "Что из перечисленного в ответах должен предпринять водитель легкового автомобиля в этом случае?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '24',
@@ -201,7 +201,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '523',
-            'name' => "",
+            'name' => "Какие световые приборы должны быть включены в светлое время суток на механическом транспортном средстве при движении в колонне?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '25',
@@ -209,7 +209,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '524',
-            'name' => "",
+            'name' => "Вместе с включением аварийной световой сигнализации следует установить знак аварийной остановки либо мигающий красный фонарь:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '26',
@@ -217,7 +217,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '525',
-            'name' => "",
+            'name' => "На каком минимальном расстоянии до механического транспортного средства в населенном пункте должен быть выставлен знак аварийной остановки или мигающий красный фонарь?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '27',
@@ -225,7 +225,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '526',
-            'name' => "",
+            'name' => "Въехав в тоннель с искусственным освещением вы должны включить:",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '28',
@@ -233,7 +233,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '527',
-            'name' => "",
+            'name' => "Какую из перечисленных в ответах световую сигнализацию необходимо включить в светлое время суток на механических транспортных средствах во время буксировки?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '29',
@@ -241,7 +241,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '528',
-            'name' => "",
+            'name' => "Дает ли водителю синего легкового автомобиля подача предупреждающего сигнала преимущество по отношению к водителю желтого автомобиля?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '30',
@@ -249,7 +249,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '529',
-            'name' => "",
+            'name' => "Подачу предупреждающего сигнала рукой в этом случае мотоциклисту следует закончить:",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '31',
@@ -257,7 +257,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '530',
-            'name' => "",
+            'name' => "На транспортном средстве, обозначенном опознавательным знаком «Дети» и перевозящем организованную группу детей, аварийная световая сигнализация должна быть включена:",
             'correct_option' => '5',
             'rule_reference' => '',
             'num' => '32',
@@ -265,7 +265,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '531',
-            'name' => "",
+            'name' => "В каких случаях при перевозке организованной группы детей на автобусе в светлое время суток должен быть включен ближний свет фар?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '33',
@@ -273,7 +273,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '532',
-            'name' => "",
+            'name' => "На каком минимальном расстоянии до начала поворота в населенном пункте должен быть подан предупреждающий сигнал?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '34',
@@ -281,7 +281,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '533',
-            'name' => "",
+            'name' => "В каких местах Правилами запрещается подача звукового сигнала?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '35',
@@ -289,7 +289,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '534',
-            'name' => "",
+            'name' => "Кто из водителей в этом случае должен включить аварийную световую сигнализацию?",
             'correct_option' => '3',
             'rule_reference' => '',
             'num' => '36',
@@ -297,7 +297,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '535',
-            'name' => "",
+            'name' => "Каким образом следует обозначить транспортное средство с технической неисправностью, если такое движение разрешено Правилами?",
             'correct_option' => '2',
             'rule_reference' => '',
             'num' => '37',
@@ -305,7 +305,7 @@ class m150407_153157_populate_chapter9_question_table extends Migration
         ]);
         $this->insert('question', [
             'id' => '536',
-            'name' => "",
+            'name' => "Должен ли водитель маршрутного автобуса а этом случае подавать предупреждающий сигнал начала движения?",
             'correct_option' => '1',
             'rule_reference' => '',
             'num' => '38',

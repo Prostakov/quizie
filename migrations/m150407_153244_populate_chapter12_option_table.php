@@ -2,7 +2,6 @@
 
 use yii\db\Schema;
 use yii\db\Migration;
-use yii\db\Query;
 
 class m150407_153244_populate_chapter12_option_table extends Migration
 {
@@ -10,1699 +9,1699 @@ class m150407_153244_populate_chapter12_option_table extends Migration
     {
         $this->insert('option', [
             'id' => '2232',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '657',
         ]);
         $this->insert('option', [
             'id' => '2233',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '657',
         ]);
         $this->insert('option', [
             'id' => '2234',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '3',
             'question_id' => '657',
         ]);
         $this->insert('option', [
             'id' => '2235',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '4',
             'question_id' => '657',
         ]);
         $this->insert('option', [
             'id' => '2236',
-            'name' => "",
+            'name' => "С любой скоростью, обеспечивающей безопасность дорожного движения.",
             'num' => '5',
             'question_id' => '657',
         ]);
         $this->insert('option', [
             'id' => '2237',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '1',
             'question_id' => '658',
         ]);
         $this->insert('option', [
             'id' => '2238',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '2',
             'question_id' => '658',
         ]);
         $this->insert('option', [
             'id' => '2239',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '3',
             'question_id' => '658',
         ]);
         $this->insert('option', [
             'id' => '2240',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '4',
             'question_id' => '658',
         ]);
         $this->insert('option', [
             'id' => '2241',
-            'name' => "",
+            'name' => "130 км/ч.",
             'num' => '5',
             'question_id' => '658',
         ]);
         $this->insert('option', [
             'id' => '2242',
-            'name' => "",
+            'name' => "20 км/ч.",
             'num' => '1',
             'question_id' => '659',
         ]);
         $this->insert('option', [
             'id' => '2243',
-            'name' => "",
+            'name' => "40 км/ч.",
             'num' => '2',
             'question_id' => '659',
         ]);
         $this->insert('option', [
             'id' => '2244',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '3',
             'question_id' => '659',
         ]);
         $this->insert('option', [
             'id' => '2245',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '4',
             'question_id' => '659',
         ]);
         $this->insert('option', [
             'id' => '2246',
-            'name' => "",
+            'name' => "Мотоцикла.",
             'num' => '1',
             'question_id' => '660',
         ]);
         $this->insert('option', [
             'id' => '2247',
-            'name' => "",
+            'name' => "Микроавтобуса.",
             'num' => '2',
             'question_id' => '660',
         ]);
         $this->insert('option', [
             'id' => '2248',
-            'name' => "",
+            'name' => "Обоим разрешается.",
             'num' => '3',
             'question_id' => '660',
         ]);
         $this->insert('option', [
             'id' => '2249',
-            'name' => "",
+            'name' => "Обоим запрещается.",
             'num' => '4',
             'question_id' => '660',
         ]);
         $this->insert('option', [
             'id' => '2250',
-            'name' => "",
+            'name' => "Только автомобиля, обслуживающего предприятие связи.",
             'num' => '1',
             'question_id' => '661',
         ]);
         $this->insert('option', [
             'id' => '2251',
-            'name' => "",
+            'name' => "Только автомобиля дорожной службы.",
             'num' => '2',
             'question_id' => '661',
         ]);
         $this->insert('option', [
             'id' => '2252',
-            'name' => "",
+            'name' => "Оба нарушают.",
             'num' => '3',
             'question_id' => '661',
         ]);
         $this->insert('option', [
             'id' => '2253',
-            'name' => "",
+            'name' => "Оба не нарушают.",
             'num' => '4',
             'question_id' => '661',
         ]);
         $this->insert('option', [
             'id' => '2254',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '662',
         ]);
         $this->insert('option', [
             'id' => '2255',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '662',
         ]);
         $this->insert('option', [
             'id' => '2256',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '3',
             'question_id' => '662',
         ]);
         $this->insert('option', [
             'id' => '2257',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '4',
             'question_id' => '662',
         ]);
         $this->insert('option', [
             'id' => '2258',
-            'name' => "",
+            'name' => "100 км/ч.",
             'num' => '5',
             'question_id' => '662',
         ]);
         $this->insert('option', [
             'id' => '2259',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '663',
         ]);
         $this->insert('option', [
             'id' => '2260',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '663',
         ]);
         $this->insert('option', [
             'id' => '2261',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '3',
             'question_id' => '663',
         ]);
         $this->insert('option', [
             'id' => '2262',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '4',
             'question_id' => '663',
         ]);
         $this->insert('option', [
             'id' => '2263',
-            'name' => "",
+            'name' => "100 км/ч.",
             'num' => '5',
             'question_id' => '663',
         ]);
         $this->insert('option', [
             'id' => '2264',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '1',
             'question_id' => '664',
         ]);
         $this->insert('option', [
             'id' => '2265',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '2',
             'question_id' => '664',
         ]);
         $this->insert('option', [
             'id' => '2266',
-            'name' => "",
+            'name' => "100 км/ч.",
             'num' => '3',
             'question_id' => '664',
         ]);
         $this->insert('option', [
             'id' => '2267',
-            'name' => "",
+            'name' => "30 км/ч.",
             'num' => '1',
             'question_id' => '665',
         ]);
         $this->insert('option', [
             'id' => '2268',
-            'name' => "",
+            'name' => "40 км/ч.",
             'num' => '2',
             'question_id' => '665',
         ]);
         $this->insert('option', [
             'id' => '2269',
-            'name' => "",
+            'name' => "50 км/ч.",
             'num' => '3',
             'question_id' => '665',
         ]);
         $this->insert('option', [
             'id' => '2270',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '4',
             'question_id' => '665',
         ]);
         $this->insert('option', [
             'id' => '2271',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '5',
             'question_id' => '665',
         ]);
         $this->insert('option', [
             'id' => '2272',
-            'name' => "",
+            'name' => "Только микроавтобуса.",
             'num' => '1',
             'question_id' => '666',
         ]);
         $this->insert('option', [
             'id' => '2273',
-            'name' => "",
+            'name' => "Только мотоцикла с боковым прицепом.",
             'num' => '2',
             'question_id' => '666',
         ]);
         $this->insert('option', [
             'id' => '2274',
-            'name' => "",
+            'name' => "Обоих мотоциклов.",
             'num' => '3',
             'question_id' => '666',
         ]);
         $this->insert('option', [
             'id' => '2275',
-            'name' => "",
+            'name' => "Микроавтобуса и мотоцикла без бокового прицепа.",
             'num' => '4',
             'question_id' => '666',
         ]);
         $this->insert('option', [
             'id' => '2276',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '1',
             'question_id' => '667',
         ]);
         $this->insert('option', [
             'id' => '2277',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '667',
         ]);
         $this->insert('option', [
             'id' => '2278',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '3',
             'question_id' => '667',
         ]);
         $this->insert('option', [
             'id' => '2279',
-            'name' => "",
+            'name' => "С любой скоростью, обеспечивающей безопасность дорожного движения.",
             'num' => '4',
             'question_id' => '667',
         ]);
         $this->insert('option', [
             'id' => '2280',
-            'name' => "",
+            'name' => "Разрешается.",
             'num' => '1',
             'question_id' => '668',
         ]);
         $this->insert('option', [
             'id' => '2281',
-            'name' => "",
+            'name' => "Запрещается.",
             'num' => '2',
             'question_id' => '668',
         ]);
         $this->insert('option', [
             'id' => '2282',
-            'name' => "",
+            'name' => "Только на “Б”.",
             'num' => '1',
             'question_id' => '669',
         ]);
         $this->insert('option', [
             'id' => '2283',
-            'name' => "",
+            'name' => "Только на “А\".",
             'num' => '2',
             'question_id' => '669',
         ]);
         $this->insert('option', [
             'id' => '2284',
-            'name' => "",
+            'name' => "На “А” и “Б\".",
             'num' => '3',
             'question_id' => '669',
         ]);
         $this->insert('option', [
             'id' => '2285',
-            'name' => "",
+            'name' => "Только не более 50 км/ч.",
             'num' => '1',
             'question_id' => '670',
         ]);
         $this->insert('option', [
             'id' => '2286',
-            'name' => "",
+            'name' => "Только 50 км/ч.",
             'num' => '2',
             'question_id' => '670',
         ]);
         $this->insert('option', [
             'id' => '2287',
-            'name' => "",
+            'name' => "Не более 90 км/ч.",
             'num' => '3',
             'question_id' => '670',
         ]);
         $this->insert('option', [
             'id' => '2288',
-            'name' => "",
+            'name' => "Только автомобиля скорой медицинской помощи.",
             'num' => '1',
             'question_id' => '671',
         ]);
         $this->insert('option', [
             'id' => '2289',
-            'name' => "",
+            'name' => "Только автомобиля дорожной службы.",
             'num' => '2',
             'question_id' => '671',
         ]);
         $this->insert('option', [
             'id' => '2290',
-            'name' => "",
+            'name' => "Водителям обоих транспортных средств.",
             'num' => '3',
             'question_id' => '671',
         ]);
         $this->insert('option', [
             'id' => '2291',
-            'name' => "",
+            'name' => "50 км/ч.",
             'num' => '1',
             'question_id' => '672',
         ]);
         $this->insert('option', [
             'id' => '2292',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '2',
             'question_id' => '672',
         ]);
         $this->insert('option', [
             'id' => '2293',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '3',
             'question_id' => '672',
         ]);
         $this->insert('option', [
             'id' => '2294',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '4',
             'question_id' => '672',
         ]);
         $this->insert('option', [
             'id' => '2295',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '5',
             'question_id' => '672',
         ]);
         $this->insert('option', [
             'id' => '2296',
-            'name' => "",
+            'name' => "Только в установленных Правилами пределах.",
             'num' => '1',
             'question_id' => '673',
         ]);
         $this->insert('option', [
             'id' => '2297',
-            'name' => "",
+            'name' => "Только позволяющей постоянно контролировать его движение.",
             'num' => '2',
             'question_id' => '673',
         ]);
         $this->insert('option', [
             'id' => '2298',
-            'name' => "",
+            'name' => "С учетом всех изложенных выше требований.",
             'num' => '3',
             'question_id' => '673',
         ]);
         $this->insert('option', [
             'id' => '2299',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '674',
         ]);
         $this->insert('option', [
             'id' => '2300',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '674',
         ]);
         $this->insert('option', [
             'id' => '2301',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '3',
             'question_id' => '674',
         ]);
         $this->insert('option', [
             'id' => '2302',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '4',
             'question_id' => '674',
         ]);
         $this->insert('option', [
             'id' => '2303',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '5',
             'question_id' => '674',
         ]);
         $this->insert('option', [
             'id' => '2304',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '675',
         ]);
         $this->insert('option', [
             'id' => '2305',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '2',
             'question_id' => '675',
         ]);
         $this->insert('option', [
             'id' => '2306',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '3',
             'question_id' => '675',
         ]);
         $this->insert('option', [
             'id' => '2307',
-            'name' => "",
+            'name' => "130 км/ч.",
             'num' => '4',
             'question_id' => '675',
         ]);
         $this->insert('option', [
             'id' => '2308',
-            'name' => "",
+            'name' => "Разрешается, если полоса слева свободна на достаточном для перестроения расстоянии.",
             'num' => '1',
             'question_id' => '676',
         ]);
         $this->insert('option', [
             'id' => '2309',
-            'name' => "",
+            'name' => "Разрешается, если нет транспорта, выполняющего опережение.",
             'num' => '2',
             'question_id' => '676',
         ]);
         $this->insert('option', [
             'id' => '2310',
-            'name' => "",
+            'name' => "Запрещается.",
             'num' => '3',
             'question_id' => '676',
         ]);
         $this->insert('option', [
             'id' => '2311',
-            'name' => "",
+            'name' => "Только при движении по левой полосе на дорогах с тремя полосами для движения в одном направлении.",
             'num' => '1',
             'question_id' => '677',
         ]);
         $this->insert('option', [
             'id' => '2312',
-            'name' => "",
+            'name' => "Только при выполнении обгона.",
             'num' => '2',
             'question_id' => '677',
         ]);
         $this->insert('option', [
             'id' => '2313',
-            'name' => "",
+            'name' => "Только на участках дорог, где скорость движения увеличена соответствующими дорожными знаками.",
             'num' => '3',
             'question_id' => '677',
         ]);
         $this->insert('option', [
             'id' => '2314',
-            'name' => "",
+            'name' => "Во всех перечисленных выше случаях.",
             'num' => '4',
             'question_id' => '677',
         ]);
         $this->insert('option', [
             'id' => '2315',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '678',
         ]);
         $this->insert('option', [
             'id' => '2316',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '2',
             'question_id' => '678',
         ]);
         $this->insert('option', [
             'id' => '2317',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '3',
             'question_id' => '678',
         ]);
         $this->insert('option', [
             'id' => '2318',
-            'name' => "",
+            'name' => "130 км/ч.",
             'num' => '4',
             'question_id' => '678',
         ]);
         $this->insert('option', [
             'id' => '2319',
-            'name' => "",
+            'name' => "Только грузового автомобиля, буксирующего легковой.",
             'num' => '1',
             'question_id' => '679',
         ]);
         $this->insert('option', [
             'id' => '2320',
-            'name' => "",
+            'name' => "Только легкового автомобиля с прицепом.",
             'num' => '2',
             'question_id' => '679',
         ]);
         $this->insert('option', [
             'id' => '2321',
-            'name' => "",
+            'name' => "Оба не нарушают.",
             'num' => '3',
             'question_id' => '679',
         ]);
         $this->insert('option', [
             'id' => '2322',
-            'name' => "",
+            'name' => "Оба нарушают.",
             'num' => '4',
             'question_id' => '679',
         ]);
         $this->insert('option', [
             'id' => '2323',
-            'name' => "",
+            'name' => "130 км/ч.",
             'num' => '1',
             'question_id' => '680',
         ]);
         $this->insert('option', [
             'id' => '2324',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '2',
             'question_id' => '680',
         ]);
         $this->insert('option', [
             'id' => '2325',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '3',
             'question_id' => '680',
         ]);
         $this->insert('option', [
             'id' => '2326',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '4',
             'question_id' => '680',
         ]);
         $this->insert('option', [
             'id' => '2327',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '5',
             'question_id' => '680',
         ]);
         $this->insert('option', [
             'id' => '2328',
-            'name' => "",
+            'name' => "Только грузового автомобиля.",
             'num' => '1',
             'question_id' => '681',
         ]);
         $this->insert('option', [
             'id' => '2329',
-            'name' => "",
+            'name' => "Только легкового автомобиля.",
             'num' => '2',
             'question_id' => '681',
         ]);
         $this->insert('option', [
             'id' => '2330',
-            'name' => "",
+            'name' => "Оба нарушают.",
             'num' => '3',
             'question_id' => '681',
         ]);
         $this->insert('option', [
             'id' => '2331',
-            'name' => "",
+            'name' => "Оба не нарушают.",
             'num' => '4',
             'question_id' => '681',
         ]);
         $this->insert('option', [
             'id' => '2332',
-            'name' => "",
+            'name' => "Разрешается по любой полосе.",
             'num' => '1',
             'question_id' => '682',
         ]);
         $this->insert('option', [
             'id' => '2333',
-            'name' => "",
+            'name' => "Запрещается.",
             'num' => '2',
             'question_id' => '682',
         ]);
         $this->insert('option', [
             'id' => '2334',
-            'name' => "",
+            'name' => "Разрешается только по крайней левой полосе.",
             'num' => '3',
             'question_id' => '682',
         ]);
         $this->insert('option', [
             'id' => '2335',
-            'name' => "",
+            'name' => "Только грузового автомобиля.",
             'num' => '1',
             'question_id' => '683',
         ]);
         $this->insert('option', [
             'id' => '2336',
-            'name' => "",
+            'name' => "Только автобуса.",
             'num' => '2',
             'question_id' => '683',
         ]);
         $this->insert('option', [
             'id' => '2337',
-            'name' => "",
+            'name' => "Только трактора.",
             'num' => '3',
             'question_id' => '683',
         ]);
         $this->insert('option', [
             'id' => '2338',
-            'name' => "",
+            'name' => "Грузового автомобиля и автобуса.",
             'num' => '4',
             'question_id' => '683',
         ]);
         $this->insert('option', [
             'id' => '2339',
-            'name' => "",
+            'name' => "Только 70 км/ч.",
             'num' => '1',
             'question_id' => '684',
         ]);
         $this->insert('option', [
             'id' => '2340',
-            'name' => "",
+            'name' => "Только 90 км/ч.",
             'num' => '2',
             'question_id' => '684',
         ]);
         $this->insert('option', [
             'id' => '2341',
-            'name' => "",
+            'name' => "Только 100 км/ч.",
             'num' => '3',
             'question_id' => '684',
         ]);
         $this->insert('option', [
             'id' => '2342',
-            'name' => "",
+            'name' => "Только 130 км/ч.",
             'num' => '4',
             'question_id' => '684',
         ]);
         $this->insert('option', [
             'id' => '2343',
-            'name' => "",
+            'name' => "С любой, обеспечивающей безопасность дорожного движения.",
             'num' => '5',
             'question_id' => '684',
         ]);
         $this->insert('option', [
             'id' => '2344',
-            'name' => "",
+            'name' => "50 км/ч.",
             'num' => '1',
             'question_id' => '685',
         ]);
         $this->insert('option', [
             'id' => '2345',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '2',
             'question_id' => '685',
         ]);
         $this->insert('option', [
             'id' => '2346',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '3',
             'question_id' => '685',
         ]);
         $this->insert('option', [
             'id' => '2347',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '4',
             'question_id' => '685',
         ]);
         $this->insert('option', [
             'id' => '2348',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '5',
             'question_id' => '685',
         ]);
         $this->insert('option', [
             'id' => '2349',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '686',
         ]);
         $this->insert('option', [
             'id' => '2350',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '686',
         ]);
         $this->insert('option', [
             'id' => '2351',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '3',
             'question_id' => '686',
         ]);
         $this->insert('option', [
             'id' => '2352',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '4',
             'question_id' => '686',
         ]);
         $this->insert('option', [
             'id' => '2353',
-            'name' => "",
+            'name' => "50 км/ч.",
             'num' => '1',
             'question_id' => '687',
         ]);
         $this->insert('option', [
             'id' => '2354',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '2',
             'question_id' => '687',
         ]);
         $this->insert('option', [
             'id' => '2355',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '3',
             'question_id' => '687',
         ]);
         $this->insert('option', [
             'id' => '2356',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '4',
             'question_id' => '687',
         ]);
         $this->insert('option', [
             'id' => '2357',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '5',
             'question_id' => '687',
         ]);
         $this->insert('option', [
             'id' => '2358',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '688',
         ]);
         $this->insert('option', [
             'id' => '2359',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '688',
         ]);
         $this->insert('option', [
             'id' => '2360',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '3',
             'question_id' => '688',
         ]);
         $this->insert('option', [
             'id' => '2361',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '4',
             'question_id' => '688',
         ]);
         $this->insert('option', [
             'id' => '2362',
-            'name' => "",
+            'name' => "20 км/ч.",
             'num' => '1',
             'question_id' => '689',
         ]);
         $this->insert('option', [
             'id' => '2363',
-            'name' => "",
+            'name' => "40 км/ч.",
             'num' => '2',
             'question_id' => '689',
         ]);
         $this->insert('option', [
             'id' => '2364',
-            'name' => "",
+            'name' => "50 км/ч.",
             'num' => '3',
             'question_id' => '689',
         ]);
         $this->insert('option', [
             'id' => '2365',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '4',
             'question_id' => '689',
         ]);
         $this->insert('option', [
             'id' => '2366',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '5',
             'question_id' => '689',
         ]);
         $this->insert('option', [
             'id' => '2367',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '690',
         ]);
         $this->insert('option', [
             'id' => '2368',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '690',
         ]);
         $this->insert('option', [
             'id' => '2369',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '3',
             'question_id' => '690',
         ]);
         $this->insert('option', [
             'id' => '2370',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '4',
             'question_id' => '690',
         ]);
         $this->insert('option', [
             'id' => '2371',
-            'name' => "",
+            'name' => "130 км/ч.",
             'num' => '5',
             'question_id' => '690',
         ]);
         $this->insert('option', [
             'id' => '2372',
-            'name' => "",
+            'name' => "Только установленные Правилами пределы скорости движения.",
             'num' => '1',
             'question_id' => '691',
         ]);
         $this->insert('option', [
             'id' => '2373',
-            'name' => "",
+            'name' => "Только дорожную обстановку.",
             'num' => '2',
             'question_id' => '691',
         ]);
         $this->insert('option', [
             'id' => '2374',
-            'name' => "",
+            'name' => "Только особенности перевозимого груза.",
             'num' => '3',
             'question_id' => '691',
         ]);
         $this->insert('option', [
             'id' => '2375',
-            'name' => "",
+            'name' => "Все перечисленные выше факторы.",
             'num' => '4',
             'question_id' => '691',
         ]);
         $this->insert('option', [
             'id' => '2376',
-            'name' => "",
+            'name' => "Запрещается.",
             'num' => '1',
             'question_id' => '692',
         ]);
         $this->insert('option', [
             'id' => '2377',
-            'name' => "",
+            'name' => "Разрешается на дорогах кроме автомагистралей, если это не будет препятствовать другим транспортным средствам.",
             'num' => '2',
             'question_id' => '692',
         ]);
         $this->insert('option', [
             'id' => '2378',
-            'name' => "",
+            'name' => "Разрешается на дорогах кроме автомагистралей, если движение осуществляется как можно ближе к правому краю проезжей части.",
             'num' => '3',
             'question_id' => '692',
         ]);
         $this->insert('option', [
             'id' => '2379',
-            'name' => "",
+            'name' => "20 км/ч.",
             'num' => '1',
             'question_id' => '693',
         ]);
         $this->insert('option', [
             'id' => '2380',
-            'name' => "",
+            'name' => "40 км/ч.",
             'num' => '2',
             'question_id' => '693',
         ]);
         $this->insert('option', [
             'id' => '2381',
-            'name' => "",
+            'name' => "50 км/ч.",
             'num' => '3',
             'question_id' => '693',
         ]);
         $this->insert('option', [
             'id' => '2382',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '4',
             'question_id' => '693',
         ]);
         $this->insert('option', [
             'id' => '2383',
-            'name' => "",
+            'name' => "20 км/ч.",
             'num' => '1',
             'question_id' => '694',
         ]);
         $this->insert('option', [
             'id' => '2384',
-            'name' => "",
+            'name' => "30 км/ч.",
             'num' => '2',
             'question_id' => '694',
         ]);
         $this->insert('option', [
             'id' => '2385',
-            'name' => "",
+            'name' => "40 км/ч.",
             'num' => '3',
             'question_id' => '694',
         ]);
         $this->insert('option', [
             'id' => '2386',
-            'name' => "",
+            'name' => "Только грузового автомобиля.",
             'num' => '1',
             'question_id' => '695',
         ]);
         $this->insert('option', [
             'id' => '2387',
-            'name' => "",
+            'name' => "Только грузового автомобиля и автобуса.",
             'num' => '2',
             'question_id' => '695',
         ]);
         $this->insert('option', [
             'id' => '2388',
-            'name' => "",
+            'name' => "Только легкового и грузового автомобилей.",
             'num' => '3',
             'question_id' => '695',
         ]);
         $this->insert('option', [
             'id' => '2389',
-            'name' => "",
+            'name' => "Всех вышеперечисленных транспортных средств.",
             'num' => '4',
             'question_id' => '695',
         ]);
         $this->insert('option', [
             'id' => '2390',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '1',
             'question_id' => '696',
         ]);
         $this->insert('option', [
             'id' => '2391',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '2',
             'question_id' => '696',
         ]);
         $this->insert('option', [
             'id' => '2392',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '3',
             'question_id' => '696',
         ]);
         $this->insert('option', [
             'id' => '2393',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '4',
             'question_id' => '696',
         ]);
         $this->insert('option', [
             'id' => '2394',
-            'name' => "",
+            'name' => "130 км/ч.",
             'num' => '5',
             'question_id' => '696',
         ]);
         $this->insert('option', [
             'id' => '2395',
-            'name' => "",
+            'name' => "Только для уменьшения скорости, вплоть до остановки транспортного средства.",
             'num' => '1',
             'question_id' => '697',
         ]);
         $this->insert('option', [
             'id' => '2396',
-            'name' => "",
+            'name' => "Только для объезда препятствия.",
             'num' => '2',
             'question_id' => '697',
         ]);
         $this->insert('option', [
             'id' => '2397',
-            'name' => "",
+            'name' => "Для уменьшения скорости, вплоть до остановки транспортного средства либо безопасного для других участников дорожного движения объезда препятствия.",
             'num' => '3',
             'question_id' => '697',
         ]);
         $this->insert('option', [
             'id' => '2398',
-            'name' => "",
+            'name' => "К остановке транспортного средства на обочине или у края проезжей части.",
             'num' => '4',
             'question_id' => '697',
         ]);
         $this->insert('option', [
             'id' => '2399',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '698',
         ]);
         $this->insert('option', [
             'id' => '2400',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '698',
         ]);
         $this->insert('option', [
             'id' => '2401',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '3',
             'question_id' => '698',
         ]);
         $this->insert('option', [
             'id' => '2402',
-            'name' => "",
+            'name' => "Начиная только с позиции “А\".",
             'num' => '1',
             'question_id' => '699',
         ]);
         $this->insert('option', [
             'id' => '2403',
-            'name' => "",
+            'name' => "Начиная только с позиции “В\".",
             'num' => '2',
             'question_id' => '699',
         ]);
         $this->insert('option', [
             'id' => '2404',
-            'name' => "",
+            'name' => "Начиная только с позиции “Б\".",
             'num' => '3',
             'question_id' => '699',
         ]);
         $this->insert('option', [
             'id' => '2405',
-            'name' => "",
+            'name' => "На всех разрешается.",
             'num' => '4',
             'question_id' => '699',
         ]);
         $this->insert('option', [
             'id' => '2406',
-            'name' => "",
+            'name' => "На всех запрещается.",
             'num' => '5',
             'question_id' => '699',
         ]);
         $this->insert('option', [
             'id' => '2407',
-            'name' => "",
+            'name' => "Не более 70 км/ч.",
             'num' => '1',
             'question_id' => '700',
         ]);
         $this->insert('option', [
             'id' => '2408',
-            'name' => "",
+            'name' => "Не более 90 км/ч.",
             'num' => '2',
             'question_id' => '700',
         ]);
         $this->insert('option', [
             'id' => '2409',
-            'name' => "",
+            'name' => "Не более 110 км/ч.",
             'num' => '3',
             'question_id' => '700',
         ]);
         $this->insert('option', [
             'id' => '2410',
-            'name' => "",
+            'name' => "Не менее 70 км/ч.",
             'num' => '4',
             'question_id' => '700',
         ]);
         $this->insert('option', [
             'id' => '2411',
-            'name' => "",
+            'name' => "50 км/ч.",
             'num' => '1',
             'question_id' => '701',
         ]);
         $this->insert('option', [
             'id' => '2412',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '2',
             'question_id' => '701',
         ]);
         $this->insert('option', [
             'id' => '2413',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '3',
             'question_id' => '701',
         ]);
         $this->insert('option', [
             'id' => '2414',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '4',
             'question_id' => '701',
         ]);
         $this->insert('option', [
             'id' => '2415',
-            'name' => "",
+            'name' => "130 км/ч.",
             'num' => '5',
             'question_id' => '701',
         ]);
         $this->insert('option', [
             'id' => '2416',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '702',
         ]);
         $this->insert('option', [
             'id' => '2417',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '702',
         ]);
         $this->insert('option', [
             'id' => '2418',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '3',
             'question_id' => '702',
         ]);
         $this->insert('option', [
             'id' => '2419',
-            'name' => "",
+            'name' => "100 км/ч.",
             'num' => '4',
             'question_id' => '702',
         ]);
         $this->insert('option', [
             'id' => '2420',
-            'name' => "",
+            'name' => "10 км/ч.",
             'num' => '1',
             'question_id' => '703',
         ]);
         $this->insert('option', [
             'id' => '2421',
-            'name' => "",
+            'name' => "20 км/ч.",
             'num' => '2',
             'question_id' => '703',
         ]);
         $this->insert('option', [
             'id' => '2422',
-            'name' => "",
+            'name' => "40 км/ч.",
             'num' => '3',
             'question_id' => '703',
         ]);
         $this->insert('option', [
             'id' => '2423',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '4',
             'question_id' => '703',
         ]);
         $this->insert('option', [
             'id' => '2424',
-            'name' => "",
+            'name' => "Только грузового, выполняющего буксировку.",
             'num' => '1',
             'question_id' => '704',
         ]);
         $this->insert('option', [
             'id' => '2425',
-            'name' => "",
+            'name' => "Только грузового, перевозящего людей.",
             'num' => '2',
             'question_id' => '704',
         ]);
         $this->insert('option', [
             'id' => '2426',
-            'name' => "",
+            'name' => "Обоим, перечисленным выше, разрешается.",
             'num' => '3',
             'question_id' => '704',
         ]);
         $this->insert('option', [
             'id' => '2427',
-            'name' => "",
+            'name' => "Обоим, перечисленным выше, запрещается.",
             'num' => '4',
             'question_id' => '704',
         ]);
         $this->insert('option', [
             'id' => '2428',
-            'name' => "",
+            'name' => "50 км/ч.",
             'num' => '1',
             'question_id' => '705',
         ]);
         $this->insert('option', [
             'id' => '2429',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '705',
         ]);
         $this->insert('option', [
             'id' => '2430',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '3',
             'question_id' => '705',
         ]);
         $this->insert('option', [
             'id' => '2431',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '4',
             'question_id' => '705',
         ]);
         $this->insert('option', [
             'id' => '2432',
-            'name' => "",
+            'name' => "50 км/ч.",
             'num' => '1',
             'question_id' => '706',
         ]);
         $this->insert('option', [
             'id' => '2433',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '706',
         ]);
         $this->insert('option', [
             'id' => '2434',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '3',
             'question_id' => '706',
         ]);
         $this->insert('option', [
             'id' => '2435',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '4',
             'question_id' => '706',
         ]);
         $this->insert('option', [
             'id' => '2436',
-            'name' => "",
+            'name' => "Микроавтобуса.",
             'num' => '1',
             'question_id' => '707',
         ]);
         $this->insert('option', [
             'id' => '2437',
-            'name' => "",
+            'name' => "Грузового автомобиля.",
             'num' => '2',
             'question_id' => '707',
         ]);
         $this->insert('option', [
             'id' => '2438',
-            'name' => "",
+            'name' => "Оба нарушают.",
             'num' => '3',
             'question_id' => '707',
         ]);
         $this->insert('option', [
             'id' => '2439',
-            'name' => "",
+            'name' => "Оба не нарушают.",
             'num' => '4',
             'question_id' => '707',
         ]);
         $this->insert('option', [
             'id' => '2440',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '708',
         ]);
         $this->insert('option', [
             'id' => '2441',
-            'name' => "",
+            'name' => "50 км/ч.",
             'num' => '2',
             'question_id' => '708',
         ]);
         $this->insert('option', [
             'id' => '2442',
-            'name' => "",
+            'name' => "40 км/ч.",
             'num' => '3',
             'question_id' => '708',
         ]);
         $this->insert('option', [
             'id' => '2443',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '709',
         ]);
         $this->insert('option', [
             'id' => '2444',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '709',
         ]);
         $this->insert('option', [
             'id' => '2445',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '3',
             'question_id' => '709',
         ]);
         $this->insert('option', [
             'id' => '2446',
-            'name' => "",
+            'name' => "Только автобуса.",
             'num' => '1',
             'question_id' => '710',
         ]);
         $this->insert('option', [
             'id' => '2447',
-            'name' => "",
+            'name' => "Только грузового автомобиля.",
             'num' => '2',
             'question_id' => '710',
         ]);
         $this->insert('option', [
             'id' => '2448',
-            'name' => "",
+            'name' => "Только автомобиля с опознавательным знаком «Инвалид».",
             'num' => '3',
             'question_id' => '710',
         ]);
         $this->insert('option', [
             'id' => '2449',
-            'name' => "",
+            'name' => "Автобуса и грузового автомобиля.",
             'num' => '4',
             'question_id' => '710',
         ]);
         $this->insert('option', [
             'id' => '2450',
-            'name' => "",
+            'name' => "Все перечисленные выше нарушают.",
             'num' => '5',
             'question_id' => '710',
         ]);
         $this->insert('option', [
             'id' => '2451',
-            'name' => "",
+            'name' => "10 км/ч.",
             'num' => '1',
             'question_id' => '711',
         ]);
         $this->insert('option', [
             'id' => '2452',
-            'name' => "",
+            'name' => "20 км/ч.",
             'num' => '2',
             'question_id' => '711',
         ]);
         $this->insert('option', [
             'id' => '2453',
-            'name' => "",
+            'name' => "40 км/ч.",
             'num' => '3',
             'question_id' => '711',
         ]);
         $this->insert('option', [
             'id' => '2454',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '4',
             'question_id' => '711',
         ]);
         $this->insert('option', [
             'id' => '2455',
-            'name' => "",
+            'name' => "50 км/ч.",
             'num' => '1',
             'question_id' => '712',
         ]);
         $this->insert('option', [
             'id' => '2456',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '712',
         ]);
         $this->insert('option', [
             'id' => '2457',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '3',
             'question_id' => '712',
         ]);
         $this->insert('option', [
             'id' => '2458',
-            'name' => "",
+            'name' => "Разрешается водителям автомобилей, скорость движения которых по технической характеристике не более 40 км/ч.",
             'num' => '1',
             'question_id' => '713',
         ]);
         $this->insert('option', [
             'id' => '2459',
-            'name' => "",
+            'name' => "Разрешается при обгоне и объезде препятствия.",
             'num' => '2',
             'question_id' => '713',
         ]);
         $this->insert('option', [
             'id' => '2460',
-            'name' => "",
+            'name' => "Разрешается во всех вышеперечисленных случаях.",
             'num' => '3',
             'question_id' => '713',
         ]);
         $this->insert('option', [
             'id' => '2461',
-            'name' => "",
+            'name' => "Запрещается.",
             'num' => '4',
             'question_id' => '713',
         ]);
         $this->insert('option', [
             'id' => '2462',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '1',
             'question_id' => '714',
         ]);
         $this->insert('option', [
             'id' => '2463',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '2',
             'question_id' => '714',
         ]);
         $this->insert('option', [
             'id' => '2464',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '3',
             'question_id' => '714',
         ]);
         $this->insert('option', [
             'id' => '2465',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '4',
             'question_id' => '714',
         ]);
         $this->insert('option', [
             'id' => '2466',
-            'name' => "",
+            'name' => "130 км/ч.",
             'num' => '5',
             'question_id' => '714',
         ]);
         $this->insert('option', [
             'id' => '2467',
-            'name' => "",
+            'name' => "Запрещается.",
             'num' => '1',
             'question_id' => '715',
         ]);
         $this->insert('option', [
             'id' => '2468',
-            'name' => "",
+            'name' => "Разрешается.",
             'num' => '2',
             'question_id' => '715',
         ]);
         $this->insert('option', [
             'id' => '2469',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '1',
             'question_id' => '716',
         ]);
         $this->insert('option', [
             'id' => '2470',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '716',
         ]);
         $this->insert('option', [
             'id' => '2471',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '3',
             'question_id' => '716',
         ]);
         $this->insert('option', [
             'id' => '2472',
-            'name' => "",
+            'name' => "С любой скоростью, обеспечивающей безопасность дорожного движения.",
             'num' => '4',
             'question_id' => '716',
         ]);
         $this->insert('option', [
             'id' => '2473',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '717',
         ]);
         $this->insert('option', [
             'id' => '2474',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '717',
         ]);
         $this->insert('option', [
             'id' => '2475',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '3',
             'question_id' => '717',
         ]);
         $this->insert('option', [
             'id' => '2476',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '4',
             'question_id' => '717',
         ]);
         $this->insert('option', [
             'id' => '2477',
-            'name' => "",
+            'name' => "Только самосвала.",
             'num' => '1',
             'question_id' => '718',
         ]);
         $this->insert('option', [
             'id' => '2478',
-            'name' => "",
+            'name' => "Только автокрана.",
             'num' => '2',
             'question_id' => '718',
         ]);
         $this->insert('option', [
             'id' => '2479',
-            'name' => "",
+            'name' => "Обоим разрешается.",
             'num' => '3',
             'question_id' => '718',
         ]);
         $this->insert('option', [
             'id' => '2480',
-            'name' => "",
+            'name' => "Обоим запрещается.",
             'num' => '4',
             'question_id' => '718',
         ]);
         $this->insert('option', [
             'id' => '2481',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '719',
         ]);
         $this->insert('option', [
             'id' => '2482',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '2',
             'question_id' => '719',
         ]);
         $this->insert('option', [
             'id' => '2483',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '3',
             'question_id' => '719',
         ]);
         $this->insert('option', [
             'id' => '2484',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '4',
             'question_id' => '719',
         ]);
         $this->insert('option', [
             'id' => '2485',
-            'name' => "",
+            'name' => "Только автобуса.",
             'num' => '1',
             'question_id' => '720',
         ]);
         $this->insert('option', [
             'id' => '2486',
-            'name' => "",
+            'name' => "Только мотоцикла.",
             'num' => '2',
             'question_id' => '720',
         ]);
         $this->insert('option', [
             'id' => '2487',
-            'name' => "",
+            'name' => "Обоим разрешается.",
             'num' => '3',
             'question_id' => '720',
         ]);
         $this->insert('option', [
             'id' => '2488',
-            'name' => "",
+            'name' => "Обоим запрещается.",
             'num' => '4',
             'question_id' => '720',
         ]);
         $this->insert('option', [
             'id' => '2489',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '721',
         ]);
         $this->insert('option', [
             'id' => '2490',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '721',
         ]);
         $this->insert('option', [
             'id' => '2491',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '3',
             'question_id' => '721',
         ]);
         $this->insert('option', [
             'id' => '2492',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '4',
             'question_id' => '721',
         ]);
         $this->insert('option', [
             'id' => '2493',
-            'name' => "",
+            'name' => "Водитель легкового автомобиля.",
             'num' => '1',
             'question_id' => '722',
         ]);
         $this->insert('option', [
             'id' => '2494',
-            'name' => "",
+            'name' => "Мотоциклист.",
             'num' => '2',
             'question_id' => '722',
         ]);
         $this->insert('option', [
             'id' => '2495',
-            'name' => "",
+            'name' => "Оба не нарушают.",
             'num' => '3',
             'question_id' => '722',
         ]);
         $this->insert('option', [
             'id' => '2496',
-            'name' => "",
+            'name' => "Оба нарушают.",
             'num' => '4',
             'question_id' => '722',
         ]);
         $this->insert('option', [
             'id' => '2497',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '1',
             'question_id' => '723',
         ]);
         $this->insert('option', [
             'id' => '2498',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '2',
             'question_id' => '723',
         ]);
         $this->insert('option', [
             'id' => '2499',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '3',
             'question_id' => '723',
         ]);
         $this->insert('option', [
             'id' => '2500',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '4',
             'question_id' => '723',
         ]);
         $this->insert('option', [
             'id' => '2501',
-            'name' => "",
+            'name' => "130 км/ч.",
             'num' => '5',
             'question_id' => '723',
         ]);
         $this->insert('option', [
             'id' => '2502',
-            'name' => "",
+            'name' => "60 км/ч.",
             'num' => '1',
             'question_id' => '724',
         ]);
         $this->insert('option', [
             'id' => '2503',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '2',
             'question_id' => '724',
         ]);
         $this->insert('option', [
             'id' => '2504',
-            'name' => "",
+            'name' => "80 км/ч.",
             'num' => '3',
             'question_id' => '724',
         ]);
         $this->insert('option', [
             'id' => '2505',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '4',
             'question_id' => '724',
         ]);
         $this->insert('option', [
             'id' => '2506',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '5',
             'question_id' => '724',
         ]);
         $this->insert('option', [
             'id' => '2507',
-            'name' => "",
+            'name' => "Только мотоцикла.",
             'num' => '1',
             'question_id' => '725',
         ]);
         $this->insert('option', [
             'id' => '2508',
-            'name' => "",
+            'name' => "Только микроавтобуса.",
             'num' => '2',
             'question_id' => '725',
         ]);
         $this->insert('option', [
             'id' => '2509',
-            'name' => "",
+            'name' => "Обоим разрешается.",
             'num' => '3',
             'question_id' => '725',
         ]);
         $this->insert('option', [
             'id' => '2510',
-            'name' => "",
+            'name' => "Обоим запрещается.",
             'num' => '4',
             'question_id' => '725',
         ]);
         $this->insert('option', [
             'id' => '2511',
-            'name' => "",
+            'name' => "70 км/ч.",
             'num' => '1',
             'question_id' => '726',
         ]);
         $this->insert('option', [
             'id' => '2512',
-            'name' => "",
+            'name' => "90 км/ч.",
             'num' => '2',
             'question_id' => '726',
         ]);
         $this->insert('option', [
             'id' => '2513',
-            'name' => "",
+            'name' => "110 км/ч.",
             'num' => '3',
             'question_id' => '726',
         ]);
         $this->insert('option', [
             'id' => '2514',
-            'name' => "",
+            'name' => "С любой скоростью, обеспечивающей безопасность дорожного движения.",
             'num' => '4',
             'question_id' => '726',
         ]);
