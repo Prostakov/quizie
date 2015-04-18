@@ -33,15 +33,17 @@ class ChapterController extends Controller
      * @param integer $id
      * @return mixed
      */
-    public function actionView($quiz_id, $chapter_num)
+    public function actionView($quiz_id, $chapter_num, $offset = 0, $limit=0)
     {
         $chapter = Chapter::find()->where(['quiz_id' => $quiz_id, 'num' => $chapter_num])->with('questions.options',
             'quiz')->one();
 //TODO        if (is_null($chapter)) var_dump('bebe');
         $quiz = $chapter->quiz;
+        if ($limit==0) $limit = count($chapter->questions);
+        $questions = array_slice($chapter->questions, $offset, $limit);
         return $this->render('view', [
             'model' => $chapter,
-            'questions' => $chapter->questions,
+            'questions' => $questions,
             'quiz' => $quiz,
         ]);
     }
